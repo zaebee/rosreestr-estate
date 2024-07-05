@@ -1,10 +1,9 @@
+import './assets/main.css'
+
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'
 import { createYmaps } from 'vue-yandex-maps';
 import { VCodeBlock } from '@wdns/vue-code-block';
-
-import App from './App.vue'
-
 
 import App from './App.vue'
 import router from './router'
