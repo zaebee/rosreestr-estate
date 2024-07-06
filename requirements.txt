@@ -1,0 +1,5 @@
+Flask==3.0.3
+ipdb==0.13.13
+ipython==8.26.0
+numpy==2.0.0
+rosreestr2coord==4.3.0
