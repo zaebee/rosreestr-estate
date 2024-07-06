@@ -163,11 +163,15 @@ watch(VueYandexMaps.loadStatus, (val) => {
 
 .popup {
   position: absolute;
-  top: calc(100% + 10px);
+  top: calc(10% + 10px);
   background: #fff;
-  border-radius: 10px;
   padding: 10px;
   color: black;
+  min-width: 200px;
+  text-align: center;
+  left: calc(30% + 10px);
+  border: 1px solid #bababa;
+  box-shadow: 1px 1px 4px #bababa;
 }
 
 @-moz-keyframes spin {
