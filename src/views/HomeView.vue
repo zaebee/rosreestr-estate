@@ -12,6 +12,11 @@ const route = useRoute();
 const estate = estateStore()
 const city = route.params.city
 
+onServerPrefetch(async() => {
+  await estate.getGeometry(city)
+  await initYmaps()
+  
+})
 onBeforeMount(async() => {
   await estate.getGeometry(city)
   await initYmaps()

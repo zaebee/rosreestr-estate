@@ -54,12 +54,6 @@ const center = ref<[number, number]>(estate.cityCenter)
 const map = shallowRef<YMap | null>(null)
 const openMarker = ref<null | number>(null)
 
-onBeforeMount(async() => {
-  await estate.getGeometry(city)
-  await initYmaps()
-  
-})
-
 const location: YMapLocationRequest = {
   center: estate.cityCenter as LngLat, // starting position [lng, lat]
   zoom: 17 // starting zoom
@@ -117,7 +111,16 @@ watch(VueYandexMaps.loadStatus, (val) => {
   console.log(VueYandexMaps.loadError); //null | Error | script onerror (Event | string)
 });
 
-
+onBeforeMount(async() => {
+  await estate.getGeometry(city)
+  await initYmaps()
+  
+})
+onServerPrefetch(async() => {
+  await estate.getGeometry(city)
+  await initYmaps()
+  
+})
 </script>
 
 <style scoped>
