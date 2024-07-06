@@ -31,9 +31,10 @@
 
 <script setup lang="ts">
 import { useRoute } from 'vue-router';
-import { defineAsyncComponent, onBeforeUnmount, onMounted, ref, shallowRef, onServerPrefetch, watch } from 'vue'
+import { defineAsyncComponent, onBeforeUnmount, onBeforeMount, ref, shallowRef, onServerPrefetch, watch } from 'vue'
 
 import {
+  createYmaps,
   YandexMap,
   YandexMapControls,
   YandexMapDefaultFeaturesLayer,
@@ -83,7 +84,7 @@ const defaultSettings = {
 const features: YMapFeatureProps[] = data.value.map((item) => {
   let item_cn: string[] = item.properties.cn.split(':')
   let item_last_cn: number = parseInt(item_cn[item_cn.length - 1])
-  let fill = 'rgba(21, 56, 21, 0.75)'
+  let fill = 'rgba(0, 189, 126, 0.75)'
 
   if (item_last_cn >= 2257 && item_last_cn <= 2297) {
     fill = 'rgba(191, 62, 62, 0.75)'
@@ -120,8 +121,12 @@ watch(VueYandexMaps.loadStatus, (val) => {
   console.log(val); //pending | loading | loaded | error
   console.log(VueYandexMaps.loadError); //null | Error | script onerror (Event | string)
 });
-
-
+onBeforeMount(async() => {
+  await createYmaps({
+    apikey: ''
+  })
+  console.log()
+})
 </script>
 
 <style scoped>
