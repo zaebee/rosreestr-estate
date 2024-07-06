@@ -1,0 +1,2513 @@
+{
+    "center": [
+      37.96974559743649, 55.898269545252546
+    ],
+    "items": [
+    {
+        "type": "Feature",
+        "properties": {
+            "rifr_dep_info": null,
+            "sale_doc_type": null,
+            "area_value": 1500.0,
+            "category_type": "003001000000",
+            "sale_dep": null,
+            "fp": 100,
+            "address": "\u041c\u043e\u0441\u043a\u043e\u0432\u0441\u043a\u0430\u044f \u043e\u0431\u043b., \u0429\u0451\u043b\u043a\u043e\u0432\u0441\u043a\u0438\u0439 \u0440\u0430\u0439\u043e\u043d, \u0432\u0431\u043b\u0438\u0437\u0438 \u0434\u0435\u0440\u0435\u0432\u043d\u0438 \u0421\u0435\u0440\u043a\u043e\u0432\u043e, \u0443\u0447. 31, (\u043f\u043e\u043b\u0435 \u2116 38)",
+            "id": "50:14:40110:873",
+            "util_by_doc": "\u041f\u043e\u0434 \u0434\u0430\u0447\u043d\u043e\u0435 \u0441\u0442\u0440\u043e\u0438\u0442\u0435\u043b\u044c\u0441\u0442\u0432\u043e",
+            "kvartal_cn": "50:14:0040110",
+            "kvartal": "50:14:40110",
+            "area_unit": "055",
+            "cc_date_approval": null,
+            "parcel_tour_attrs": null,
+            "cc_date_entering": "29.12.2022",
+            "cn": "50:14:0040110:873",
+            "sale_price": null,
+            "cad_unit": "383",
+            "parcel_type": "parcel",
+            "children": null,
+            "sale": null,
+            "sale_date": null,
+            "statecd": "06",
+            "is_big": false,
+            "sale_cnt": null,
+            "parcel_build_attrs": null,
+            "parcel_build": false,
+            "application_date": "01.01.2023",
+            "rifr_cnt": null,
+            "date_cost": "01.01.2022",
+            "area_type": "009",
+            "parcel_tour": false,
+            "sale_doc_date": null,
+            "cad_cost": 2584035.0,
+            "rifr_dep": null,
+            "sale_dep_uo": null,
+            "sale_doc_num": null,
+            "rifr": null,
+            "center": {
+                "x": 37.9699623062363,
+                "y": 55.89851923532352
+            }
+        },
+        "geometry": {
+            "type": "MultiPolygon",
+            "coordinates": [
+                [
+                    [
+                        [
+                            37.969735301652236,
+                            55.898749051820396
+                        ],
+                        [
+                            37.96959626041256,
+                            55.89840209804866
+                        ],
+                        [
+                            37.97019942522692,
+                            55.89830108560787
+                        ],
+                        [
+                            37.97032867483001,
+                            55.89862388531117
+                        ],
+                        [
+                            37.969735301652236,
+                            55.898749051820396
+                        ]
+                    ]
+                ]
+            ]
+        },
+        "crs": {
+            "type": "name",
+            "properties": {
+                "name": "EPSG:4326"
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "cn": "50:14:0040110:876",
+            "address": "\u041c\u043e\u0441\u043a\u043e\u0432\u0441\u043a\u0430\u044f \u043e\u0431\u043b\u0430\u0441\u0442\u044c, \u0429\u0435\u043b\u043a\u043e\u0432\u0441\u043a\u0438\u0439 \u0440\u0430\u0439\u043e\u043d, \u0410\u0434\u043c\u0438\u043d\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044f \u0429\u0435\u043b\u043a\u043e\u0432\u0441\u043a\u043e\u0433\u043e \u0440\u0430\u0439\u043e\u043d\u0430, \u0441/\u0442 \"\u0412\u0435\u0441\u043d\u0430\", \u0443\u0447. 4",
+            "application_date": "01.01.2023",
+            "area_type": "009",
+            "kvartal": "50:14:20352",
+            "kvartal_cn": "50:14:0020352",
+            "sale_doc_date": null,
+            "rifr_dep_info": null,
+            "parcel_type": "parcel",
+            "id": "50:14:40110:876",
+            "cad_unit": "383",
+            "statecd": "01",
+            "sale_dep": null,
+            "parcel_tour_attrs": null,
+            "cc_date_approval": null,
+            "sale_date": null,
+            "area_value": 920.0,
+            "rifr_dep": null,
+            "category_type": "003001000000",
+            "sale_cnt": null,
+            "sale_dep_uo": null,
+            "is_big": false,
+            "sale_doc_type": null,
+            "parcel_build_attrs": null,
+            "sale": null,
+            "rifr": null,
+            "rifr_cnt": null,
+            "sale_doc_num": null,
+            "date_cost": "01.01.2022",
+            "parcel_build": false,
+            "area_unit": "055",
+            "util_by_doc": "\u0434\u043b\u044f \u0441\u0430\u0434\u043e\u0432\u043e\u0434\u0441\u0442\u0432\u0430",
+            "sale_price": null,
+            "fp": null,
+            "cc_date_entering": "29.12.2022",
+            "cad_cost": 1023996.8,
+            "children": null,
+            "parcel_tour": false,
+            "center": {
+                "x": 38.15325088998931,
+                "y": 56.06221401829824
+            }
+        },
+        "geometry": {
+            "type": "MultiPolygon",
+            "coordinates": [
+                [
+                    [
+                        [
+                            38.15307501088914,
+                            56.06245811466968
+                        ],
+                        [
+                            38.15287702220052,
+                            56.06233827140859
+                        ],
+                        [
+                            38.15343139052866,
+                            56.061982230008475
+                        ],
+                        [
+                            38.153641883766035,
+                            56.06205553291843
+                        ],
+                        [
+                            38.15307501088914,
+                            56.06245811466968
+                        ]
+                    ]
+                ]
+            ]
+        },
+        "crs": {
+            "type": "name",
+            "properties": {
+                "name": "EPSG:4326"
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "rifr": null,
+            "cc_date_entering": "29.12.2022",
+            "rifr_cnt": null,
+            "rifr_dep": null,
+            "parcel_tour": false,
+            "sale_cnt": null,
+            "parcel_build": false,
+            "util_by_doc": "\u0434\u043b\u044f \u0441\u0430\u0434\u043e\u0432\u043e\u0434\u0441\u0442\u0432\u0430",
+            "statecd": "01",
+            "fp": 100,
+            "kvartal": "50:14:20352",
+            "category_type": "003002000000",
+            "cc_date_approval": null,
+            "area_value": 913.0,
+            "sale_price": null,
+            "sale_doc_num": null,
+            "children": null,
+            "rifr_dep_info": null,
+            "sale_date": null,
+            "kvartal_cn": "50:14:0020352",
+            "sale_dep": null,
+            "is_big": false,
+            "parcel_build_attrs": null,
+            "id": "50:14:40110:880",
+            "sale": null,
+            "parcel_type": "parcel",
+            "cad_unit": "383",
+            "cn": "50:14:0040110:880",
+            "parcel_tour_attrs": null,
+            "sale_doc_date": null,
+            "area_unit": "055",
+            "date_cost": "01.01.2022",
+            "address": "\u041c\u043e\u0441\u043a\u043e\u0432\u0441\u043a\u0430\u044f \u043e\u0431\u043b\u0430\u0441\u0442\u044c, \u0429\u0435\u043b\u043a\u043e\u0432\u0441\u043a\u0438\u0439 \u0440\u0430\u0439\u043e\u043d, \u0441/\u0442 \"\u0412\u0435\u0441\u043d\u0430\", \u0443\u0447. 21",
+            "sale_doc_type": null,
+            "application_date": "01.01.2023",
+            "area_type": "009",
+            "sale_dep_uo": null,
+            "cad_cost": 1016232.91,
+            "center": {
+                "x": 38.15686396154746,
+                "y": 56.06358216199075
+            }
+        },
+        "geometry": {
+            "type": "MultiPolygon",
+            "coordinates": [
+                [
+                    [
+                        [
+                            38.15671273393705,
+                            56.063842400183624
+                        ],
+                        [
+                            38.15650387563349,
+                            56.06377720494787
+                        ],
+                        [
+                            38.15701142376902,
+                            56.0633208352107
+                        ],
+                        [
+                            38.15721579049616,
+                            56.06338226991305
+                        ],
+                        [
+                            38.15684298965325,
+                            56.063748368558436
+                        ],
+                        [
+                            38.15680481125367,
+                            56.063748368558436
+                        ],
+                        [
+                            38.15671273393705,
+                            56.063842400183624
+                        ]
+                    ]
+                ]
+            ]
+        },
+        "crs": {
+            "type": "name",
+            "properties": {
+                "name": "EPSG:4326"
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "address": "\u041c\u043e\u0441\u043a\u043e\u0432\u0441\u043a\u0430\u044f \u043e\u0431\u043b\u0430\u0441\u0442\u044c, \u0429\u0435\u043b\u043a\u043e\u0432\u0441\u043a\u0438\u0439 \u0440\u0430\u0439\u043e\u043d, \u0441/\u0442 \"\u0412\u0435\u0441\u043d\u0430\", \u0443\u0447. 36",
+            "cc_date_entering": "29.12.2022",
+            "kvartal": "50:14:20352",
+            "sale_dep": null,
+            "cad_cost": 823127.76,
+            "sale_cnt": null,
+            "parcel_tour": false,
+            "parcel_build": false,
+            "sale_dep_uo": null,
+            "sale": null,
+            "fp": 100,
+            "area_value": 739.0,
+            "date_cost": "01.01.2022",
+            "area_type": "009",
+            "rifr_dep_info": null,
+            "parcel_build_attrs": null,
+            "parcel_type": "parcel",
+            "sale_date": null,
+            "rifr_dep": null,
+            "kvartal_cn": "50:14:0020352",
+            "sale_doc_date": null,
+            "id": "50:14:40110:881",
+            "children": null,
+            "sale_doc_type": null,
+            "parcel_tour_attrs": null,
+            "cad_unit": "383",
+            "rifr": null,
+            "rifr_cnt": null,
+            "application_date": "01.01.2023",
+            "sale_price": null,
+            "statecd": "01",
+            "cn": "50:14:0040110:881",
+            "area_unit": "055",
+            "cc_date_approval": null,
+            "is_big": false,
+            "category_type": "003002000000",
+            "sale_doc_num": null,
+            "util_by_doc": "-",
+            "center": {
+                "x": 38.15905810477478,
+                "y": 56.064309891405905
+            }
+        },
+        "geometry": {
+            "type": "MultiPolygon",
+            "coordinates": [
+                [
+                    [
+                        [
+                            38.15917334987689,
+                            56.06451995945959
+                        ],
+                        [
+                            38.15913342874566,
+                            56.06451590739936
+                        ],
+                        [
+                            38.15877413856462,
+                            56.064349772563446
+                        ],
+                        [
+                            38.159071732451935,
+                            56.06411677738014
+                        ],
+                        [
+                            38.15929855706118,
+                            56.064209975622425
+                        ],
+                        [
+                            38.1591787936675,
+                            56.0643781370983
+                        ],
+                        [
+                            38.15917334987689,
+                            56.06451995945959
+                        ]
+                    ]
+                ]
+            ]
+        },
+        "crs": {
+            "type": "name",
+            "properties": {
+                "name": "EPSG:4326"
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "id": "50:14:40110:882",
+            "category_type": "003002000000",
+            "date_cost": "01.01.2022",
+            "sale_dep_uo": null,
+            "children": null,
+            "parcel_type": "parcel",
+            "util_by_doc": "\u0434\u043b\u044f \u0441\u0430\u0434\u043e\u0432\u043e\u0434\u0441\u0442\u0432\u0430",
+            "rifr_cnt": null,
+            "is_big": false,
+            "sale_doc_date": null,
+            "parcel_build": false,
+            "area_value": 770.0,
+            "rifr_dep_info": null,
+            "sale_doc_num": null,
+            "cad_cost": 857541.3,
+            "sale_date": null,
+            "parcel_build_attrs": null,
+            "rifr": null,
+            "parcel_tour_attrs": null,
+            "kvartal": "50:14:20352",
+            "sale_dep": null,
+            "cc_date_approval": null,
+            "cad_unit": "383",
+            "area_type": "009",
+            "parcel_tour": false,
+            "sale_doc_type": null,
+            "sale_price": null,
+            "area_unit": "055",
+            "sale": null,
+            "address": "\u041c\u043e\u0441\u043a\u043e\u0432\u0441\u043a\u0430\u044f \u043e\u0431\u043b\u0430\u0441\u0442\u044c, \u0429\u0435\u043b\u043a\u043e\u0432\u0441\u043a\u0438\u0439 \u0440\u0430\u0439\u043e\u043d, \u0441/\u0442 \"\u0412\u0435\u0441\u043d\u0430\", \u0443\u0447. 12",
+            "statecd": "01",
+            "cn": "50:14:0040110:882",
+            "sale_cnt": null,
+            "cc_date_entering": "29.12.2022",
+            "application_date": "01.01.2023",
+            "rifr_dep": null,
+            "fp": 100,
+            "kvartal_cn": "50:14:0020352",
+            "center": {
+                "x": 38.15490557262013,
+                "y": 56.062940905687725
+            }
+        },
+        "geometry": {
+            "type": "MultiPolygon",
+            "coordinates": [
+                [
+                    [
+                        [
+                            38.154778786535154,
+                            56.063176878183114
+                        ],
+                        [
+                            38.15459606920636,
+                            56.063108873360825
+                        ],
+                        [
+                            38.15499195675207,
+                            56.062715576452504
+                        ],
+                        [
+                            38.155223398701864,
+                            56.0627881156653
+                        ],
+                        [
+                            38.154778786535154,
+                            56.063176878183114
+                        ]
+                    ]
+                ]
+            ]
+        },
+        "crs": {
+            "type": "name",
+            "properties": {
+                "name": "EPSG:4326"
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "kvartal": "50:14:20352",
+            "parcel_tour_attrs": null,
+            "sale_doc_date": null,
+            "rifr_dep": null,
+            "rifr_dep_info": null,
+            "application_date": "01.01.2023",
+            "sale": null,
+            "sale_cnt": null,
+            "sale_doc_num": null,
+            "cad_cost": 957438.0,
+            "category_type": "003002000000",
+            "id": "50:14:40110:883",
+            "sale_price": null,
+            "rifr_cnt": null,
+            "util_by_doc": "\u0434\u043b\u044f \u0441\u0430\u0434\u043e\u0432\u043e\u0434\u0441\u0442\u0432\u0430",
+            "cn": "50:14:0040110:883",
+            "sale_date": null,
+            "sale_dep": null,
+            "parcel_build_attrs": null,
+            "cc_date_entering": "29.12.2022",
+            "kvartal_cn": "50:14:0020352",
+            "parcel_build": false,
+            "address": "\u041c\u043e\u0441\u043a\u043e\u0432\u0441\u043a\u0430\u044f \u043e\u0431\u043b\u0430\u0441\u0442\u044c, \u0429\u0435\u043b\u043a\u043e\u0432\u0441\u043a\u0438\u0439 \u0440\u0430\u0439\u043e\u043d, \u0441/\u0442 \"\u0412\u0435\u0441\u043d\u0430\", \u0443\u0447. 13",
+            "date_cost": "01.01.2022",
+            "parcel_tour": false,
+            "cad_unit": "383",
+            "area_value": 860.0,
+            "cc_date_approval": null,
+            "children": null,
+            "fp": 100,
+            "rifr": null,
+            "parcel_type": "parcel",
+            "sale_doc_type": null,
+            "is_big": false,
+            "area_unit": "055",
+            "statecd": "01",
+            "sale_dep_uo": null,
+            "area_type": "009",
+            "center": {
+                "x": 38.155099224912576,
+                "y": 56.063033528330415
+            }
+        },
+        "geometry": {
+            "type": "MultiPolygon",
+            "coordinates": [
+                [
+                    [
+                        [
+                            38.15500853899923,
+                            56.06327929689741
+                        ],
+                        [
+                            38.154771096303335,
+                            56.06318461193592
+                        ],
+                        [
+                            38.15522478145443,
+                            56.062788116133966
+                        ],
+                        [
+                            38.15542194369298,
+                            56.06285084559206
+                        ],
+                        [
+                            38.15500853899923,
+                            56.06327929689741
+                        ]
+                    ]
+                ]
+            ]
+        },
+        "crs": {
+            "type": "name",
+            "properties": {
+                "name": "EPSG:4326"
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "category_type": "003002000000",
+            "cc_date_entering": "29.12.2022",
+            "parcel_tour_attrs": null,
+            "sale_date": null,
+            "area_unit": "055",
+            "rifr_cnt": null,
+            "parcel_type": "parcel",
+            "util_by_doc": "\u0434\u043b\u044f \u0441\u0430\u0434\u043e\u0432\u043e\u0434\u0441\u0442\u0432\u0430",
+            "sale": null,
+            "sale_doc_num": null,
+            "address": "\u041c\u043e\u0441\u043a\u043e\u0432\u0441\u043a\u0430\u044f \u043e\u0431\u043b\u0430\u0441\u0442\u044c, \u0429\u0435\u043b\u043a\u043e\u0432\u0441\u043a\u0438\u0439 \u0440\u0430\u0439\u043e\u043d, \u0441/\u0442 \"\u0412\u0435\u0441\u043d\u0430\", \u0443\u0447. 16",
+            "sale_cnt": null,
+            "parcel_build_attrs": null,
+            "parcel_build": false,
+            "area_value": 850.0,
+            "id": "50:14:40110:884",
+            "cn": "50:14:0040110:884",
+            "date_cost": "01.01.2022",
+            "rifr_dep": null,
+            "area_type": "009",
+            "children": null,
+            "parcel_tour": false,
+            "sale_doc_date": null,
+            "kvartal": "50:14:20352",
+            "fp": 100,
+            "kvartal_cn": "50:14:0020352",
+            "sale_dep": null,
+            "cc_date_approval": null,
+            "sale_price": null,
+            "application_date": "01.01.2023",
+            "cad_cost": 946339.0,
+            "statecd": "01",
+            "rifr_dep_info": null,
+            "rifr": null,
+            "cad_unit": "383",
+            "sale_doc_type": null,
+            "sale_dep_uo": null,
+            "is_big": false,
+            "center": {
+                "x": 38.15577157372906,
+                "y": 56.06322837400564
+            }
+        },
+        "geometry": {
+            "type": "MultiPolygon",
+            "coordinates": [
+                [
+                    [
+                        [
+                            38.155601425481194,
+                            56.063486139635906
+                        ],
+                        [
+                            38.155427511642195,
+                            56.063424243712774
+                        ],
+                        [
+                            38.15588838331554,
+                            56.06298368750691
+                        ],
+                        [
+                            38.15612099307521,
+                            56.063057720719875
+                        ],
+                        [
+                            38.155601425481194,
+                            56.063486139635906
+                        ]
+                    ]
+                ]
+            ]
+        },
+        "crs": {
+            "type": "name",
+            "properties": {
+                "name": "EPSG:4326"
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "cad_unit": "383",
+            "rifr_dep": null,
+            "cad_cost": 746493.9,
+            "sale": null,
+            "id": "50:14:40110:885",
+            "category_type": "003002000000",
+            "statecd": "01",
+            "rifr_dep_info": null,
+            "area_value": 670.0,
+            "area_type": "009",
+            "kvartal_cn": "50:14:0020352",
+            "application_date": "01.01.2023",
+            "cn": "50:14:0040110:885",
+            "parcel_tour": false,
+            "parcel_tour_attrs": null,
+            "is_big": false,
+            "sale_price": null,
+            "date_cost": "01.01.2022",
+            "parcel_build": false,
+            "rifr": null,
+            "parcel_type": "parcel",
+            "rifr_cnt": null,
+            "sale_doc_num": null,
+            "sale_doc_date": null,
+            "sale_doc_type": null,
+            "sale_dep_uo": null,
+            "address": "\u041c\u043e\u0441\u043a\u043e\u0432\u0441\u043a\u0430\u044f \u043e\u0431\u043b\u0430\u0441\u0442\u044c, \u0429\u0435\u043b\u043a\u043e\u0432\u0441\u043a\u0438\u0439 \u0440\u0430\u0439\u043e\u043d, \u0441/\u0442 \"\u0412\u0435\u0441\u043d\u0430\", \u0443\u0447. 22",
+            "fp": 100,
+            "area_unit": "055",
+            "children": null,
+            "sale_cnt": null,
+            "sale_date": null,
+            "cc_date_entering": "29.12.2022",
+            "sale_dep": null,
+            "parcel_build_attrs": null,
+            "cc_date_approval": null,
+            "kvartal": "50:14:20352",
+            "util_by_doc": "\u0434\u043b\u044f \u0441\u0430\u0434\u043e\u0432\u043e\u0434\u0441\u0442\u0432\u0430",
+            "center": {
+                "x": 38.157136447559814,
+                "y": 56.06358958115746
+            }
+        },
+        "geometry": {
+            "type": "MultiPolygon",
+            "coordinates": [
+                [
+                    [
+                        [
+                            38.156837334091804,
+                            56.0637531833197
+                        ],
+                        [
+                            38.157214842106804,
+                            56.063382300339995
+                        ],
+                        [
+                            38.15742580246813,
+                            56.06344531970514
+                        ],
+                        [
+                            38.157292564345184,
+                            56.06358065602643
+                        ],
+                        [
+                            38.15703163968776,
+                            56.06379554020178
+                        ],
+                        [
+                            38.156837334091804,
+                            56.0637531833197
+                        ]
+                    ]
+                ]
+            ]
+        },
+        "crs": {
+            "type": "name",
+            "properties": {
+                "name": "EPSG:4326"
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "sale_price": null,
+            "util_by_doc": "\u0434\u043b\u044f \u0441\u0430\u0434\u043e\u0432\u043e\u0434\u0441\u0442\u0432\u0430",
+            "fp": 100,
+            "statecd": "01",
+            "rifr": null,
+            "address": "\u041c\u043e\u0441\u043a\u043e\u0432\u0441\u043a\u0430\u044f \u043e\u0431\u043b\u0430\u0441\u0442\u044c, \u0429\u0435\u043b\u043a\u043e\u0432\u0441\u043a\u0438\u0439 \u0440\u0430\u0439\u043e\u043d, \u0441/\u0442 \"\u0412\u0435\u0441\u043d\u0430\", \u0443\u0447. 17",
+            "kvartal_cn": "50:14:0020352",
+            "sale_doc_num": null,
+            "parcel_type": "parcel",
+            "sale_cnt": null,
+            "cc_date_entering": "29.12.2022",
+            "date_cost": "01.01.2022",
+            "is_big": false,
+            "parcel_build": false,
+            "sale": null,
+            "parcel_build_attrs": null,
+            "sale_dep_uo": null,
+            "kvartal": "50:14:20352",
+            "rifr_cnt": null,
+            "sale_doc_type": null,
+            "sale_date": null,
+            "rifr_dep_info": null,
+            "area_type": "009",
+            "id": "50:14:40110:887",
+            "parcel_tour": false,
+            "area_value": 930.0,
+            "cad_cost": 1035090.0,
+            "sale_doc_date": null,
+            "children": null,
+            "rifr_dep": null,
+            "area_unit": "055",
+            "parcel_tour_attrs": null,
+            "cn": "50:14:0040110:887",
+            "cc_date_approval": null,
+            "sale_dep": null,
+            "cad_unit": "383",
+            "application_date": "01.01.2023",
+            "category_type": "003002000000",
+            "center": {
+                "x": 38.1559710050594,
+                "y": 56.06331028463327
+            }
+        },
+        "geometry": {
+            "type": "MultiPolygon",
+            "coordinates": [
+                [
+                    [
+                        [
+                            38.15580285530432,
+                            56.063573231470215
+                        ],
+                        [
+                            38.15560396830041,
+                            56.06348687223131
+                        ],
+                        [
+                            38.156121074510565,
+                            56.06305630685375
+                        ],
+                        [
+                            38.15634426992606,
+                            56.063130329897035
+                        ],
+                        [
+                            38.15580285530432,
+                            56.063573231470215
+                        ]
+                    ]
+                ]
+            ]
+        },
+        "crs": {
+            "type": "name",
+            "properties": {
+                "name": "EPSG:4326"
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "sale_doc_type": null,
+            "parcel_type": "parcel",
+            "parcel_tour_attrs": null,
+            "children": null,
+            "address": "\u041c\u043e\u0441\u043a\u043e\u0432\u0441\u043a\u0430\u044f \u043e\u0431\u043b\u0430\u0441\u0442\u044c, \u0429\u0435\u043b\u043a\u043e\u0432\u0441\u043a\u0438\u0439 \u0440\u0430\u0439\u043e\u043d, \u0441/\u0442 \"\u0412\u0435\u0441\u043d\u0430\", \u0443\u0447. 20",
+            "id": "50:14:40110:889",
+            "parcel_build_attrs": null,
+            "sale_dep": null,
+            "sale_cnt": null,
+            "rifr_dep_info": null,
+            "area_type": "009",
+            "rifr_dep": null,
+            "sale_price": null,
+            "area_unit": "055",
+            "cc_date_approval": null,
+            "fp": 100,
+            "util_by_doc": "\u0414\u043b\u044f \u0432\u0435\u0434\u0435\u043d\u0438\u044f \u043b\u0438\u0447\u043d\u043e\u0433\u043e \u043f\u043e\u0434\u0441\u043e\u0431\u043d\u043e\u0433\u043e \u0445\u043e\u0437\u044f\u0439\u0441\u0442\u0432\u0430 (\u043f\u0440\u0438\u0443\u0441\u0430\u0434\u0435\u0431\u043d\u044b\u0439 \u0437\u0435\u043c\u0435\u043b\u044c\u043d\u044b\u0439 \u0443\u0447\u0430\u0441\u0442\u043e\u043a)",
+            "sale_doc_num": null,
+            "parcel_build": false,
+            "cc_date_entering": "18.01.2024",
+            "sale_dep_uo": null,
+            "cn": "50:14:0040110:889",
+            "sale": null,
+            "parcel_tour": false,
+            "is_big": false,
+            "category_type": "003002000000",
+            "date_cost": "01.01.2022",
+            "kvartal": "50:14:20352",
+            "kvartal_cn": "50:14:0020352",
+            "statecd": "01",
+            "cad_cost": 1412874.9,
+            "application_date": "27.12.2023",
+            "sale_date": null,
+            "area_value": 810.0,
+            "cad_unit": "383",
+            "rifr_cnt": null,
+            "sale_doc_date": null,
+            "rifr": null,
+            "center": {
+                "x": 38.15667384334474,
+                "y": 56.063488567451
+            }
+        },
+        "geometry": {
+            "type": "MultiPolygon",
+            "coordinates": [
+                [
+                    [
+                        [
+                            38.1565732552234,
+                            56.06371568287451
+                        ],
+                        [
+                            38.15633194977178,
+                            56.06363329586745
+                        ],
+                        [
+                            38.156417702948794,
+                            56.06356204209773
+                        ],
+                        [
+                            38.1565732552234,
+                            56.063458501228915
+                        ],
+                        [
+                            38.156786641035985,
+                            56.063260325457215
+                        ],
+                        [
+                            38.1570080038883,
+                            56.063321559652714
+                        ],
+                        [
+                            38.1565732552234,
+                            56.06371568287451
+                        ]
+                    ]
+                ]
+            ]
+        },
+        "crs": {
+            "type": "name",
+            "properties": {
+                "name": "EPSG:4326"
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "parcel_build": false,
+            "category_type": "003002000000",
+            "rifr_dep_info": null,
+            "parcel_tour_attrs": null,
+            "sale_price": null,
+            "sale_dep": null,
+            "id": "50:14:40110:1050",
+            "sale_dep_uo": null,
+            "children": null,
+            "kvartal": "50:14:20352",
+            "sale_date": null,
+            "cc_date_entering": "20.12.2022",
+            "parcel_type": "parcel",
+            "rifr_cnt": null,
+            "application_date": "01.01.2023",
+            "area_unit": "055",
+            "area_value": 721.0,
+            "statecd": "01",
+            "date_cost": "01.01.2022",
+            "fp": 100,
+            "sale": null,
+            "area_type": "009",
+            "cc_date_approval": null,
+            "is_big": false,
+            "rifr_dep": null,
+            "util_by_doc": "\u0434\u0434\u044f \u0441\u0430\u0434\u043e\u0432\u043e\u0434\u0441\u0442\u0432\u0430",
+            "sale_doc_date": null,
+            "sale_doc_num": null,
+            "sale_cnt": null,
+            "cad_unit": "383",
+            "sale_doc_type": null,
+            "kvartal_cn": "50:14:0020352",
+            "address": "\u041c\u043e\u0441\u043a\u043e\u0432\u0441\u043a\u0430\u044f \u043e\u0431\u043b\u0430\u0441\u0442\u044c, \u0429\u0435\u043b\u043a\u043e\u0432\u0441\u043a\u0438\u0439 \u0440\u0430\u0439\u043e\u043d, \u0441/\u0442 \"\u0412\u0435\u0441\u043d\u0430\", \u0443\u0447. 37",
+            "cad_cost": 803136.32,
+            "rifr": null,
+            "parcel_tour": false,
+            "cn": "50:14:0040110:1050",
+            "parcel_build_attrs": null,
+            "center": {
+                "x": 38.1588938474292,
+                "y": 56.0645225775001
+            }
+        },
+        "geometry": {
+            "type": "MultiPolygon",
+            "coordinates": [
+                [
+                    [
+                        [
+                            38.15908637299636,
+                            56.06465358037487
+                        ],
+                        [
+                            38.15895194909725,
+                            56.06466405150213
+                        ],
+                        [
+                            38.15890662010801,
+                            56.06465096259262
+                        ],
+                        [
+                            38.158575249566006,
+                            56.06450174870989
+                        ],
+                        [
+                            38.158773759277494,
+                            56.06434991644695
+                        ],
+                        [
+                            38.1591332650542,
+                            56.06451571026726
+                        ],
+                        [
+                            38.15917234176905,
+                            56.064520073252915
+                        ],
+                        [
+                            38.15916765256327,
+                            56.064609078052264
+                        ],
+                        [
+                            38.15914576960296,
+                            56.06463002032813
+                        ],
+                        [
+                            38.15908637299636,
+                            56.06465358037487
+                        ]
+                    ]
+                ]
+            ]
+        },
+        "crs": {
+            "type": "name",
+            "properties": {
+                "name": "EPSG:4326"
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "util_by_doc": "\u0434\u043b\u044f \u0441\u0430\u0434\u043e\u0432\u043e\u0434\u0441\u0442\u0432\u0430",
+            "is_big": false,
+            "sale_dep_uo": null,
+            "sale_doc_num": null,
+            "parcel_build_attrs": null,
+            "date_cost": "01.01.2022",
+            "rifr_dep_info": null,
+            "sale": null,
+            "kvartal_cn": "50:14:0040110",
+            "sale_doc_type": null,
+            "area_value": 430.0,
+            "children": null,
+            "cc_date_approval": null,
+            "cc_date_entering": "25.12.2022",
+            "sale_price": null,
+            "area_type": "009",
+            "rifr": null,
+            "parcel_tour_attrs": null,
+            "category_type": "003008000000",
+            "address": "\u041c\u043e\u0441\u043a\u043e\u0432\u0441\u043a\u0430\u044f \u043e\u0431\u043b\u0430\u0441\u0442\u044c, \u0429\u0435\u043b\u043a\u043e\u0432\u0441\u043a\u0438\u0439 \u0440\u0430\u0439\u043e\u043d, \u0441/\u0442 \"\u0412\u0435\u0441\u043d\u0430\", \u0443\u0447. 45",
+            "cad_cost": 455430.2,
+            "cad_unit": "383",
+            "rifr_dep": null,
+            "id": "50:14:40110:1052",
+            "parcel_tour": false,
+            "fp": 100,
+            "sale_cnt": null,
+            "parcel_type": "parcel",
+            "sale_date": null,
+            "sale_doc_date": null,
+            "cn": "50:14:0040110:1052",
+            "application_date": "01.01.2023",
+            "kvartal": "50:14:40110",
+            "statecd": "01",
+            "rifr_cnt": null,
+            "sale_dep": null,
+            "parcel_build": false,
+            "area_unit": "055",
+            "center": {
+                "x": 38.160178991218416,
+                "y": 56.06423071131549
+            }
+        },
+        "geometry": {
+            "type": "MultiPolygon",
+            "coordinates": [
+                [
+                    [
+                        [
+                            38.160361025289866,
+                            56.064352071768354
+                        ],
+                        [
+                            38.1599668625095,
+                            56.06429296555068
+                        ],
+                        [
+                            38.16010335253376,
+                            56.06409855530393
+                        ],
+                        [
+                            38.16029596929699,
+                            56.06413558590269
+                        ],
+                        [
+                            38.160361025289866,
+                            56.064352071768354
+                        ]
+                    ]
+                ]
+            ]
+        },
+        "crs": {
+            "type": "name",
+            "properties": {
+                "name": "EPSG:4326"
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "address": "\u0420\u043e\u0441\u0441\u0438\u0439\u0441\u043a\u0430\u044f \u0424\u0435\u0434\u0435\u0440\u0430\u0446\u0438\u044f, \u041c\u043e\u0441\u043a\u043e\u0432\u0441\u043a\u0430\u044f \u043e\u0431\u043b\u0430\u0441\u0442\u044c, \u0429\u0451\u043b\u043a\u043e\u0432\u0441\u043a\u0438\u0439 \u043c\u0443\u043d\u0438\u0446\u0438\u043f\u0430\u043b\u044c\u043d\u044b\u0439 \u0440\u0430\u0439\u043e\u043d, \u0433.\u043f. \u0429\u0451\u043b\u043a\u043e\u0432\u043e, \u0433. \u0429\u0451\u043b\u043a\u043e\u0432\u043e, \u0443\u043b. \u041c\u043e\u0441\u043a\u043e\u0432\u0441\u043a\u0430\u044f, \u0437/\u0443 136\u0410",
+            "parcel_tour_attrs": null,
+            "rifr_dep": null,
+            "area_type": "009",
+            "is_big": false,
+            "parcel_type": "parcel",
+            "cn": "50:14:0040110:1053",
+            "util_by_doc": "\u041e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435 \u0436\u0438\u043b\u043e\u0439 \u0437\u0430\u0441\u0442\u0440\u043e\u0439\u043a\u0438",
+            "parcel_tour": false,
+            "cad_cost": 1236655.08,
+            "area_value": 206.0,
+            "date_cost": "01.01.2022",
+            "kvartal": "50:14:40110",
+            "cad_unit": "383",
+            "sale_dep": null,
+            "cc_date_entering": "25.12.2022",
+            "area_unit": "055",
+            "application_date": "01.01.2023",
+            "rifr": null,
+            "fp": 100,
+            "statecd": "06",
+            "sale_date": null,
+            "parcel_build_attrs": null,
+            "category_type": "003002000000",
+            "sale_doc_num": null,
+            "rifr_cnt": null,
+            "sale": null,
+            "sale_doc_date": null,
+            "sale_doc_type": null,
+            "sale_dep_uo": null,
+            "sale_price": null,
+            "rifr_dep_info": null,
+            "id": "50:14:40110:1053",
+            "kvartal_cn": "50:14:0040110",
+            "sale_cnt": null,
+            "cc_date_approval": null,
+            "children": null,
+            "parcel_build": false,
+            "center": {
+                "x": 37.983217909208484,
+                "y": 55.903829996600024
+            }
+        },
+        "geometry": {
+            "type": "MultiPolygon",
+            "coordinates": [
+                [
+                    [
+                        [
+                            37.98316747559414,
+                            55.9039182090043
+                        ],
+                        [
+                            37.98307557794058,
+                            55.903784155854595
+                        ],
+                        [
+                            37.98327221915628,
+                            55.90374261036292
+                        ],
+                        [
+                            37.98335522348852,
+                            55.90387832547099
+                        ],
+                        [
+                            37.98316747559414,
+                            55.9039182090043
+                        ]
+                    ]
+                ]
+            ]
+        },
+        "crs": {
+            "type": "name",
+            "properties": {
+                "name": "EPSG:4326"
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "rifr_cnt": null,
+            "cc_date_entering": "25.12.2022",
+            "sale_price": null,
+            "sale_doc_num": null,
+            "children": null,
+            "statecd": "06",
+            "id": "50:14:40110:1055",
+            "sale_doc_date": null,
+            "kvartal_cn": "50:14:0040110",
+            "rifr_dep": null,
+            "area_value": 888.0,
+            "rifr_dep_info": null,
+            "sale_doc_type": null,
+            "sale_cnt": null,
+            "rifr": null,
+            "cad_unit": "383",
+            "util_by_doc": "\u043e\u0433\u043e\u0440\u043e\u0434",
+            "parcel_tour": false,
+            "application_date": "01.01.2023",
+            "is_big": false,
+            "area_type": "009",
+            "cad_cost": 2347188.24,
+            "sale_dep": null,
+            "category_type": "003002000000",
+            "sale_date": null,
+            "cn": "50:14:0040110:1055",
+            "sale": null,
+            "address": "\u041c\u043e\u0441\u043a\u043e\u0432\u0441\u043a\u0430\u044f \u043e\u0431\u043b\u0430\u0441\u0442\u044c, \u0429\u0435\u043b\u043a\u043e\u0432\u0441\u043a\u0438\u0439 \u0440\u0430\u0439\u043e\u043d, \u0433. \u0429\u0435\u043b\u043a\u043e\u0432\u043e, \u0432 \u0440\u0430\u0439\u043e\u043d\u0435 \u0436/\u0434 \u0441\u0442. \"\u0421\u043e\u043a\u043e\u043b\u043e\u0432\u0441\u043a\u0430\u044f\", \u0443\u0447\u0430\u0441\u0442\u043e\u043a \u2116 121",
+            "cc_date_approval": null,
+            "parcel_build": false,
+            "parcel_type": "parcel",
+            "fp": 100,
+            "parcel_build_attrs": null,
+            "parcel_tour_attrs": null,
+            "kvartal": "50:14:40110",
+            "sale_dep_uo": null,
+            "area_unit": "055",
+            "date_cost": "01.01.2022",
+            "center": {
+                "x": 37.96504590530131,
+                "y": 55.91660058715688
+            }
+        },
+        "geometry": {
+            "type": "MultiPolygon",
+            "coordinates": [
+                [
+                    [
+                        [
+                            37.96547634483199,
+                            55.91661321727608
+                        ],
+                        [
+                            37.965032002159845,
+                            55.91678067283698
+                        ],
+                        [
+                            37.96469049862144,
+                            55.91652405233168
+                        ],
+                        [
+                            37.96483020461442,
+                            55.916435974563285
+                        ],
+                        [
+                            37.96547634483199,
+                            55.91661321727608
+                        ]
+                    ]
+                ]
+            ]
+        },
+        "crs": {
+            "type": "name",
+            "properties": {
+                "name": "EPSG:4326"
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "category_type": "003002000000",
+            "rifr_dep_info": null,
+            "address": "\u041c\u043e\u0441\u043a\u043e\u0432\u0441\u043a\u0430\u044f \u043e\u0431\u043b\u0430\u0441\u0442\u044c, \u0429\u0435\u043b\u043a\u043e\u0432\u0441\u043a\u0438\u0439 \u0440\u0430\u0439\u043e\u043d, \u0433. \u0429\u0435\u043b\u043a\u043e\u0432\u043e, \u0432 \u0440\u0430\u0439\u043e\u043d\u0435 \u0436/\u0434 \u0441\u0442. \"\u0421\u043e\u043a\u043e\u043b\u043e\u0432\u0441\u043a\u0430\u044f\" , \u0443\u0447\u0430\u0441\u0442\u043e\u043a \u2116172",
+            "cc_date_entering": "25.12.2022",
+            "kvartal": "50:14:40110",
+            "kvartal_cn": "50:14:0040110",
+            "fp": 100,
+            "cn": "50:14:0040110:1056",
+            "statecd": "06",
+            "id": "50:14:40110:1056",
+            "parcel_build": false,
+            "cad_cost": 3368188.16,
+            "sale_cnt": null,
+            "cc_date_approval": null,
+            "sale_doc_date": null,
+            "children": null,
+            "cad_unit": "383",
+            "sale_dep_uo": null,
+            "area_type": "009",
+            "parcel_build_attrs": null,
+            "sale_doc_type": null,
+            "sale_price": null,
+            "parcel_tour_attrs": null,
+            "sale_dep": null,
+            "sale_doc_num": null,
+            "sale_date": null,
+            "parcel_type": "parcel",
+            "is_big": false,
+            "sale": null,
+            "rifr": null,
+            "date_cost": "01.01.2022",
+            "application_date": "01.01.2023",
+            "rifr_cnt": null,
+            "area_unit": "055",
+            "area_value": 1048.0,
+            "util_by_doc": "\u0432\u0435\u0434\u0435\u043d\u0438\u0435 \u0441\u0430\u0434\u043e\u0432\u043e\u0434\u0441\u0442\u0432\u0430",
+            "parcel_tour": false,
+            "rifr_dep": null,
+            "center": {
+                "x": 37.96274477977022,
+                "y": 55.91762481735207
+            }
+        },
+        "geometry": {
+            "type": "MultiPolygon",
+            "coordinates": [
+                [
+                    [
+                        [
+                            37.96265142770878,
+                            55.917822326349814
+                        ],
+                        [
+                            37.96241549418256,
+                            55.91771773999723
+                        ],
+                        [
+                            37.96254050373749,
+                            55.917526326507975
+                        ],
+                        [
+                            37.96291025030845,
+                            55.917433579425804
+                        ],
+                        [
+                            37.963098644989834,
+                            55.91762302003821
+                        ],
+                        [
+                            37.96265142770878,
+                            55.917822326349814
+                        ]
+                    ]
+                ]
+            ]
+        },
+        "crs": {
+            "type": "name",
+            "properties": {
+                "name": "EPSG:4326"
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "kvartal_cn": "50:14:0040110",
+            "util_by_doc": "\u043e\u0433\u043e\u0440\u043e\u0434",
+            "sale_cnt": null,
+            "sale": null,
+            "sale_dep": null,
+            "is_big": false,
+            "parcel_type": "parcel",
+            "application_date": "01.01.2023",
+            "parcel_tour": false,
+            "cc_date_approval": null,
+            "sale_dep_uo": null,
+            "parcel_tour_attrs": null,
+            "rifr_dep": null,
+            "sale_doc_type": null,
+            "statecd": "06",
+            "parcel_build": false,
+            "rifr": null,
+            "cad_cost": 1028092.59,
+            "fp": 100,
+            "kvartal": "50:14:40110",
+            "sale_price": null,
+            "cc_date_entering": "25.12.2022",
+            "cn": "50:14:0040110:1057",
+            "rifr_cnt": null,
+            "cad_unit": "383",
+            "rifr_dep_info": null,
+            "parcel_build_attrs": null,
+            "area_type": "009",
+            "date_cost": "01.01.2022",
+            "address": "\u041c\u043e\u0441\u043a\u043e\u0432\u0441\u043a\u0430\u044f \u043e\u0431\u043b\u0430\u0441\u0442\u044c, \u0429\u0435\u043b\u043a\u043e\u0432\u0441\u043a\u0438\u0439 \u0440\u0430\u0439\u043e\u043d, \u0433. \u0429\u0435\u043b\u043a\u043e\u0432\u043e, \u0432 \u0440\u0430\u0439\u043e\u043d\u0435 \u0436/\u0434 \u0441\u0442. \"\u0421\u043e\u043a\u043e\u043b\u043e\u0432\u0441\u043a\u0430\u044f\" , \u0443\u0447\u0430\u0441\u0442\u043e\u043a \u211673",
+            "area_unit": "055",
+            "category_type": "003002000000",
+            "sale_doc_date": null,
+            "sale_date": null,
+            "sale_doc_num": null,
+            "children": null,
+            "area_value": 387.0,
+            "id": "50:14:40110:1057",
+            "center": {
+                "x": 37.96435789833367,
+                "y": 55.91618512647716
+            }
+        },
+        "geometry": {
+            "type": "MultiPolygon",
+            "coordinates": [
+                [
+                    [
+                        [
+                            37.96449432026009,
+                            55.9163323245681
+                        ],
+                        [
+                            37.96428127580731,
+                            55.91630053870984
+                        ],
+                        [
+                            37.96421072212489,
+                            55.91606873373598
+                        ],
+                        [
+                            37.964430683605364,
+                            55.91604702617581
+                        ],
+                        [
+                            37.96449432026009,
+                            55.9163323245681
+                        ]
+                    ]
+                ]
+            ]
+        },
+        "crs": {
+            "type": "name",
+            "properties": {
+                "name": "EPSG:4326"
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "application_date": "01.01.2023",
+            "util_by_doc": "\u043e\u0433\u043e\u0440\u043e\u0434",
+            "rifr": null,
+            "rifr_dep_info": null,
+            "parcel_build_attrs": null,
+            "area_unit": "055",
+            "cc_date_entering": "25.12.2022",
+            "children": null,
+            "fp": 100,
+            "area_value": 586.0,
+            "statecd": "06",
+            "sale_dep_uo": null,
+            "parcel_tour": false,
+            "cad_cost": 1554189.2,
+            "cad_unit": "383",
+            "parcel_build": false,
+            "is_big": false,
+            "id": "50:14:40110:1058",
+            "cc_date_approval": null,
+            "parcel_type": "parcel_mzu",
+            "sale_doc_type": null,
+            "cn": "50:14:0040110:1058",
+            "date_cost": "01.01.2022",
+            "rifr_cnt": null,
+            "sale_price": null,
+            "kvartal_cn": "50:14:0040110",
+            "area_type": "009",
+            "parcel_tour_attrs": null,
+            "sale_doc_date": null,
+            "sale_doc_num": null,
+            "address": "\u041c\u043e\u0441\u043a\u043e\u0432\u0441\u043a\u0444\u0430\u044f \u043e\u0431\u043b\u0430\u0441\u0442\u044c, \u0429\u0435\u043b\u043a\u043e\u0432\u0441\u043a\u0438\u0439 \u0440\u0430\u0439\u043e\u043d, \u0433. \u0429\u0435\u043b\u043a\u043e\u0432\u043e, \u0432 \u0440\u0430\u0439\u043e\u043d\u0435 \u0436/\u0434 \u0441\u0442. \"\u0421\u043e\u043a\u043e\u043b\u043e\u0432\u0441\u043a\u0430\u044f\" , \u0443\u0447\u0430\u0441\u0442\u043e\u043a \u2116142",
+            "category_type": "003002000000",
+            "sale_date": null,
+            "sale_dep": null,
+            "sale": null,
+            "kvartal": "50:14:40110",
+            "sale_cnt": null,
+            "rifr_dep": null,
+            "center": {
+                "x": 37.96380325244469,
+                "y": 55.91692166558223
+            }
+        },
+        "geometry": {
+            "type": "MultiPolygon",
+            "coordinates": [
+                [
+                    [
+                        [
+                            37.96367550833684,
+                            55.91705771446357
+                        ],
+                        [
+                            37.96360495465443,
+                            55.91691506819895
+                        ],
+                        [
+                            37.963571752921524,
+                            55.9169181692103
+                        ],
+                        [
+                            37.96354546821631,
+                            55.91686545198387
+                        ],
+                        [
+                            37.96393973879452,
+                            55.91678482549896
+                        ],
+                        [
+                            37.964047644426444,
+                            55.916893361112685
+                        ],
+                        [
+                            37.96392728814468,
+                            55.91692979800059
+                        ],
+                        [
+                            37.964000608638166,
+                            55.91702360344806
+                        ],
+                        [
+                            37.96367550833684,
+                            55.91705771446357
+                        ]
+                    ]
+                ]
+            ]
+        },
+        "crs": {
+            "type": "name",
+            "properties": {
+                "name": "EPSG:4326"
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "address": "\u041c\u043e\u0441\u043a\u043e\u0432\u0441\u043a\u0430\u044f \u043e\u0431\u043b., \u0429\u0435\u043b\u043a\u043e\u0432\u0441\u043a\u0438\u0439 \u0440-\u043d, \u0421\u041f\u041a \"\u0416\u0435\u0433\u0430\u043b\u043e\u0432\u043e\"",
+            "cn": "50:14:0040110:1063",
+            "rifr": null,
+            "date_cost": "01.01.2022",
+            "util_by_doc": "\u0414\u043b\u044f \u0441\u0435\u043b\u044c\u0441\u043a\u043e\u0445\u043e\u0437\u044f\u0439\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0433\u043e \u043f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0441\u0442\u0432\u0430",
+            "id": "50:14:40110:1063",
+            "sale_dep": null,
+            "rifr_cnt": null,
+            "rifr_dep": null,
+            "fp": 100,
+            "cc_date_entering": "25.12.2022",
+            "parcel_type": "parcel",
+            "application_date": "01.01.2023",
+            "parcel_build": false,
+            "is_big": false,
+            "statecd": "06",
+            "sale_doc_date": null,
+            "category_type": "003001000000",
+            "kvartal_cn": "50:14:0040110",
+            "parcel_build_attrs": null,
+            "area_type": "009",
+            "kvartal": "50:14:40110",
+            "cc_date_approval": null,
+            "parcel_tour_attrs": null,
+            "children": null,
+            "sale_doc_num": null,
+            "cad_cost": 25488.56,
+            "area_value": 16132.0,
+            "rifr_dep_info": null,
+            "parcel_tour": false,
+            "sale_date": null,
+            "sale_dep_uo": null,
+            "area_unit": "055",
+            "sale_doc_type": null,
+            "cad_unit": "383",
+            "sale_price": null,
+            "sale": null,
+            "sale_cnt": null,
+            "center": {
+                "x": 37.97721121987162,
+                "y": 55.9077064101928
+            }
+        },
+        "geometry": {
+            "type": "MultiPolygon",
+            "coordinates": [
+                [
+                    [
+                        [
+                            37.975242214822075,
+                            55.907583763049814
+                        ],
+                        [
+                            37.97959904395006,
+                            55.907231288967644
+                        ],
+                        [
+                            37.979724808089834,
+                            55.907437738461596
+                        ],
+                        [
+                            37.97584408606244,
+                            55.90835919475415
+                        ],
+                        [
+                            37.975242214822075,
+                            55.907583763049814
+                        ]
+                    ]
+                ]
+            ]
+        },
+        "crs": {
+            "type": "name",
+            "properties": {
+                "name": "EPSG:4326"
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "fp": 100,
+            "sale_doc_num": null,
+            "cn": "50:14:0040110:1064",
+            "sale_doc_date": null,
+            "parcel_build_attrs": null,
+            "id": "50:14:40110:1064",
+            "sale": null,
+            "rifr": null,
+            "children": null,
+            "area_value": 368.0,
+            "parcel_type": "parcel",
+            "area_type": "009",
+            "statecd": "06",
+            "sale_dep": null,
+            "cc_date_entering": "25.12.2022",
+            "rifr_dep": null,
+            "parcel_build": false,
+            "cc_date_approval": null,
+            "util_by_doc": "\u0414\u043b\u044f \u0441\u0435\u043b\u044c\u0441\u043a\u043e\u0445\u043e\u0437\u044f\u0439\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0433\u043e \u043f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0441\u0442\u0432\u0430",
+            "sale_doc_type": null,
+            "sale_date": null,
+            "is_big": false,
+            "area_unit": "055",
+            "date_cost": "01.01.2022",
+            "kvartal": "50:14:40110",
+            "rifr_cnt": null,
+            "sale_cnt": null,
+            "sale_price": null,
+            "application_date": "01.01.2023",
+            "cad_unit": "383",
+            "rifr_dep_info": null,
+            "cad_cost": 508955.04,
+            "kvartal_cn": "50:14:0040110",
+            "parcel_tour_attrs": null,
+            "sale_dep_uo": null,
+            "category_type": "003001000000",
+            "parcel_tour": false,
+            "address": "\u041c\u043e\u0441\u043a\u043e\u0432\u0441\u043a\u0430\u044f \u043e\u0431\u043b., \u0429\u0435\u043b\u043a\u043e\u0432\u0441\u043a\u0438\u0439 \u0440-\u043d, \u0421\u041f\u041a \"\u0416\u0435\u0433\u0430\u043b\u043e\u0432\u043e\"",
+            "center": {
+                "x": 37.97977472082902,
+                "y": 55.90731085352715
+            }
+        },
+        "geometry": {
+            "type": "MultiPolygon",
+            "coordinates": [
+                [
+                    [
+                        [
+                            37.97973045379846,
+                            55.907441213257734
+                        ],
+                        [
+                            37.97959284986324,
+                            55.90721676737835
+                        ],
+                        [
+                            37.9798345865062,
+                            55.90719661582718
+                        ],
+                        [
+                            37.97995111596485,
+                            55.90738909745725
+                        ],
+                        [
+                            37.97973045379846,
+                            55.907441213257734
+                        ]
+                    ]
+                ]
+            ]
+        },
+        "crs": {
+            "type": "name",
+            "properties": {
+                "name": "EPSG:4326"
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "cad_cost": 45101794.5,
+            "area_unit": "055",
+            "application_date": "01.01.2023",
+            "id": "50:14:40110:1073",
+            "sale_date": null,
+            "rifr_dep_info": null,
+            "cc_date_approval": null,
+            "category_type": "003002000000",
+            "address": "\u041c\u043e\u0441\u043a\u043e\u0432\u0441\u043a\u0430\u044f \u043e\u0431\u043b\u0430\u0441\u0442\u044c, \u0429\u0435\u043b\u043a\u043e\u0432\u0441\u043a\u0438\u0439 \u0440\u0430\u0439\u043e\u043d, \u0421\u041f\u041a \"\u0416\u0435\u0433\u0430\u043b\u043e\u0432\u043e\"",
+            "area_value": 7210.0,
+            "sale": null,
+            "sale_price": null,
+            "sale_doc_type": null,
+            "kvartal_cn": "50:14:0040110",
+            "cn": "50:14:0040110:1073",
+            "date_cost": "01.01.2022",
+            "kvartal": "50:14:40110",
+            "statecd": "06",
+            "rifr_cnt": null,
+            "parcel_build_attrs": null,
+            "parcel_type": "parcel",
+            "sale_cnt": null,
+            "parcel_tour": false,
+            "children": null,
+            "cc_date_entering": "25.12.2022",
+            "area_type": "009",
+            "util_by_doc": "\u0434\u043b\u044f \u043a\u043e\u043c\u043f\u043b\u0435\u043a\u0441\u043d\u043e\u0433\u043e \u043e\u0441\u0432\u043e\u0435\u043d\u0438\u044f \u0432 \u0446\u0435\u043b\u044f\u0445 \u0436\u0438\u043b\u0438\u0449\u043d\u043e\u0433\u043e \u0441\u0442\u0440\u043e\u0438\u0442\u0435\u043b\u044c\u0441\u0442\u0432\u0430",
+            "parcel_tour_attrs": null,
+            "rifr": null,
+            "fp": 100,
+            "rifr_dep": null,
+            "parcel_build": false,
+            "sale_dep": null,
+            "cad_unit": "383",
+            "is_big": false,
+            "sale_dep_uo": null,
+            "sale_doc_num": null,
+            "sale_doc_date": null,
+            "center": {
+                "x": 37.98072064909173,
+                "y": 55.90751539698803
+            }
+        },
+        "geometry": {
+            "type": "MultiPolygon",
+            "coordinates": [
+                [
+                    [
+                        [
+                            37.980427242776905,
+                            55.9080271451329
+                        ],
+                        [
+                            37.97994770411193,
+                            55.90738903100009
+                        ],
+                        [
+                            37.97983464215027,
+                            55.90719672057234
+                        ],
+                        [
+                            37.98083660505187,
+                            55.90711586249407
+                        ],
+                        [
+                            37.981214777820185,
+                            55.90706996999627
+                        ],
+                        [
+                            37.98127325814518,
+                            55.907325656078115
+                        ],
+                        [
+                            37.98159295058849,
+                            55.90775179580177
+                        ],
+                        [
+                            37.980427242776905,
+                            55.9080271451329
+                        ]
+                    ]
+                ]
+            ]
+        },
+        "crs": {
+            "type": "name",
+            "properties": {
+                "name": "EPSG:4326"
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "cad_cost": 28941528.7,
+            "kvartal_cn": "50:14:0040110",
+            "area_type": "009",
+            "sale_dep": null,
+            "cc_date_approval": null,
+            "sale_price": null,
+            "kvartal": "50:14:40110",
+            "util_by_doc": "\u0434\u043b\u044f \u043a\u043e\u043c\u043f\u043b\u0435\u043a\u0441\u043d\u043e\u0433\u043e \u043e\u0441\u0432\u043e\u0435\u043d\u0438\u044f \u0432 \u0446\u0435\u043b\u044f\u0445 \u0436\u0438\u043b\u0438\u0449\u043d\u043e\u0433\u043e \u0441\u0442\u0440\u043e\u0438\u0442\u0435\u043b\u044c\u0441\u0442\u0432\u0430",
+            "date_cost": "01.01.2022",
+            "sale_doc_num": null,
+            "statecd": "06",
+            "is_big": false,
+            "sale_dep_uo": null,
+            "address": "\u041c\u043e\u0441\u043a\u043e\u0432\u0441\u043a\u0430\u044f \u043e\u0431\u043b\u0430\u0441\u0442\u044c, \u0429\u0435\u043b\u043a\u043e\u0432\u0441\u043a\u0438\u0439 \u0440\u0430\u0439\u043e\u043d, \u0421\u041f\u041a \"\u0416\u0435\u0433\u0430\u043b\u043e\u0432\u043e\"",
+            "rifr_cnt": null,
+            "rifr_dep_info": null,
+            "id": "50:14:40110:1074",
+            "parcel_type": "parcel",
+            "sale_date": null,
+            "area_unit": "055",
+            "cc_date_entering": "25.12.2022",
+            "sale_cnt": null,
+            "sale": null,
+            "sale_doc_date": null,
+            "rifr": null,
+            "application_date": "01.01.2023",
+            "parcel_tour": false,
+            "parcel_build_attrs": null,
+            "children": null,
+            "area_value": 4585.0,
+            "cad_unit": "383",
+            "category_type": "003002000000",
+            "sale_doc_type": null,
+            "rifr_dep": null,
+            "cn": "50:14:0040110:1074",
+            "parcel_build": false,
+            "fp": 200,
+            "parcel_tour_attrs": null,
+            "center": {
+                "x": 37.982290350560795,
+                "y": 55.90735488639901
+            }
+        },
+        "geometry": {
+            "type": "MultiPolygon",
+            "coordinates": [
+                [
+                    [
+                        [
+                            37.98159429921325,
+                            55.90775254017912
+                        ],
+                        [
+                            37.98138777652943,
+                            55.90747471151336
+                        ],
+                        [
+                            37.98155674963437,
+                            55.9075168068937
+                        ],
+                        [
+                            37.98175576240242,
+                            55.90743472085973
+                        ],
+                        [
+                            37.98189845080215,
+                            55.90723476697299
+                        ],
+                        [
+                            37.981872166096935,
+                            55.907119003725285
+                        ],
+                        [
+                            37.98284094523194,
+                            55.906994820948086
+                        ],
+                        [
+                            37.98308126253674,
+                            55.907403149261945
+                        ],
+                        [
+                            37.98159429921325,
+                            55.90775254017912
+                        ]
+                    ]
+                ]
+            ]
+        },
+        "crs": {
+            "type": "name",
+            "properties": {
+                "name": "EPSG:4326"
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "rifr": null,
+            "cc_date_entering": "25.12.2022",
+            "rifr_cnt": null,
+            "rifr_dep": null,
+            "parcel_tour": false,
+            "sale_cnt": null,
+            "parcel_build": false,
+            "util_by_doc": "\u0434\u043b\u044f \u043a\u043e\u043c\u043f\u043b\u0435\u043a\u0441\u043d\u043e\u0433\u043e \u043e\u0441\u0432\u043e\u0435\u043d\u0438\u044f \u0432 \u0446\u0435\u043b\u044f\u0445 \u0436\u0438\u043b\u0438\u0449\u043d\u043e\u0433\u043e \u0441\u0442\u0440\u043e\u0438\u0442\u0435\u043b\u044c\u0441\u0442\u0432\u0430",
+            "statecd": "06",
+            "fp": 100,
+            "kvartal": "50:14:40110",
+            "category_type": "003002000000",
+            "cc_date_approval": null,
+            "area_value": 2705.0,
+            "sale_price": null,
+            "sale_doc_num": null,
+            "children": null,
+            "rifr_dep_info": null,
+            "sale_date": null,
+            "kvartal_cn": "50:14:0040110",
+            "sale_dep": null,
+            "is_big": false,
+            "parcel_build_attrs": null,
+            "id": "50:14:40110:1075",
+            "sale": null,
+            "parcel_type": "parcel",
+            "cad_unit": "383",
+            "cn": "50:14:0040110:1075",
+            "parcel_tour_attrs": null,
+            "sale_doc_date": null,
+            "area_unit": "055",
+            "date_cost": "01.01.2022",
+            "address": "\u041c\u043e\u0441\u043a\u043e\u0432\u0441\u043a\u0430\u044f \u043e\u0431\u043b\u0430\u0441\u0442\u044c, \u0429\u0435\u043b\u043a\u043e\u0432\u0441\u043a\u0438\u0439 \u0440\u0430\u0439\u043e\u043d, \u0421\u041f\u041a \"\u0416\u0435\u0433\u0430\u043b\u043e\u0432\u043e\"",
+            "sale_doc_type": null,
+            "application_date": "01.01.2023",
+            "area_type": "009",
+            "sale_dep_uo": null,
+            "cad_cost": 17057757.05,
+            "center": {
+                "x": 37.98181776260108,
+                "y": 55.90715726365044
+            }
+        },
+        "geometry": {
+            "type": "MultiPolygon",
+            "coordinates": [
+                [
+                    [
+                        [
+                            37.981382912307474,
+                            55.907471032788266
+                        ],
+                        [
+                            37.98127040730129,
+                            55.90731846181386
+                        ],
+                        [
+                            37.981212340201324,
+                            55.90706824411642
+                        ],
+                        [
+                            37.982769264319145,
+                            55.9068729511333
+                        ],
+                        [
+                            37.98283821900036,
+                            55.90699704366356
+                        ],
+                        [
+                            37.98188011185092,
+                            55.90711706720854
+                        ],
+                        [
+                            37.981898257819665,
+                            55.90723505609409
+                        ],
+                        [
+                            37.981753090069745,
+                            55.90743645008668
+                        ],
+                        [
+                            37.981560742801115,
+                            55.90751578682689
+                        ],
+                        [
+                            37.981382912307474,
+                            55.907471032788266
+                        ]
+                    ]
+                ]
+            ]
+        },
+        "crs": {
+            "type": "name",
+            "properties": {
+                "name": "EPSG:4326"
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "rifr_cnt": null,
+            "sale_doc_date": null,
+            "parcel_tour": false,
+            "rifr_dep_info": null,
+            "parcel_build_attrs": null,
+            "is_big": false,
+            "cc_date_entering": "25.12.2022",
+            "parcel_type": "parcel",
+            "sale_cnt": null,
+            "kvartal": "50:14:40110",
+            "util_by_doc": "\u0434\u043b\u044f \u0441\u0435\u043b\u044c\u0441\u043a\u043e\u0445\u043e\u0437\u044f\u0439\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0433\u043e \u043f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0441\u0442\u0432\u0430",
+            "sale_dep_uo": null,
+            "sale_doc_num": null,
+            "kvartal_cn": "50:14:0040110",
+            "cn": "50:14:0040110:1079",
+            "address": "\u041c\u043e\u0441\u043a\u043e\u0432\u0441\u043a\u0430\u044f \u043e\u0431\u043b\u0430\u0441\u0442\u044c, \u0440-\u043d \u0429\u0435\u043b\u043a\u043e\u0432\u0441\u043a\u0438\u0439, \u044e\u0433\u043e-\u0437\u0430\u043f\u0430\u0434\u043d\u0435\u0435 \u043c\u0438\u043a\u0440\u043e\u0440\u0430\u0439\u043e\u043d\u0430 \u0416\u0435\u0433\u0430\u043b\u043e\u0432\u043e \u0433. \u0429\u0435\u043b\u043a\u043e\u0432\u043e",
+            "sale_doc_type": null,
+            "statecd": "06",
+            "cad_unit": "383",
+            "area_value": 463.0,
+            "sale_date": null,
+            "category_type": "003001000000",
+            "rifr_dep": null,
+            "application_date": "01.01.2023",
+            "sale_price": null,
+            "id": "50:14:40110:1079",
+            "parcel_build": false,
+            "cc_date_approval": null,
+            "date_cost": "01.01.2022",
+            "area_unit": "055",
+            "rifr": null,
+            "sale_dep": null,
+            "children": null,
+            "area_type": "009",
+            "sale": null,
+            "fp": 100,
+            "cad_cost": 698861.46,
+            "parcel_tour_attrs": null,
+            "center": {
+                "x": 37.97988067863582,
+                "y": 55.900433887787834
+            }
+        },
+        "geometry": {
+            "type": "MultiPolygon",
+            "coordinates": [
+                [
+                    [
+                        [
+                            37.97978281135129,
+                            55.90059428290071
+                        ],
+                        [
+                            37.97962921740401,
+                            55.900531581803726
+                        ],
+                        [
+                            37.979940878908685,
+                            55.90027994038144
+                        ],
+                        [
+                            37.98014219136385,
+                            55.900347658001124
+                        ],
+                        [
+                            37.97978281135129,
+                            55.90059428290071
+                        ]
+                    ]
+                ]
+            ]
+        },
+        "crs": {
+            "type": "name",
+            "properties": {
+                "name": "EPSG:4326"
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "cn": "50:14:0040110:1080",
+            "address": "\u041c\u043e\u0441\u043a\u043e\u0432\u0441\u043a\u0430\u044f \u043e\u0431\u043b\u0430\u0441\u0442\u044c, \u0440-\u043d \u0429\u0435\u043b\u043a\u043e\u0432\u0441\u043a\u0438\u0439, \u044e\u0433\u043e-\u0437\u0430\u043f\u0430\u0434\u043d\u0435\u0435 \u043c\u0438\u043a\u0440\u043e\u0440\u0430\u0439\u043e\u043d\u0430 \u0416\u0435\u0433\u0430\u043b\u043e\u0432\u043e \u0433. \u0429\u0435\u043b\u043a\u043e\u0432\u043e",
+            "application_date": "01.01.2023",
+            "area_type": "009",
+            "kvartal": "50:14:40110",
+            "kvartal_cn": "50:14:0040110",
+            "sale_doc_date": null,
+            "rifr_dep_info": null,
+            "parcel_type": "parcel",
+            "id": "50:14:40110:1080",
+            "cad_unit": "383",
+            "statecd": "06",
+            "sale_dep": null,
+            "parcel_tour_attrs": null,
+            "cc_date_approval": null,
+            "sale_date": null,
+            "area_value": 1402.0,
+            "rifr_dep": null,
+            "category_type": "003001000000",
+            "sale_cnt": null,
+            "sale_dep_uo": null,
+            "is_big": false,
+            "sale_doc_type": null,
+            "parcel_build_attrs": null,
+            "sale": null,
+            "rifr": null,
+            "rifr_cnt": null,
+            "sale_doc_num": null,
+            "date_cost": "01.01.2022",
+            "parcel_build": false,
+            "area_unit": "055",
+            "util_by_doc": "\u0434\u043b\u044f \u0441\u0435\u043b\u044c\u0441\u043a\u043e\u0445\u043e\u0437\u044f\u0439\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0433\u043e \u043f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0441\u0442\u0432\u0430",
+            "sale_price": null,
+            "fp": 100,
+            "cc_date_entering": "25.12.2022",
+            "cad_cost": 13164331.36,
+            "children": null,
+            "parcel_tour": false,
+            "center": {
+                "x": 37.97950073456389,
+                "y": 55.90030058886723
+            }
+        },
+        "geometry": {
+            "type": "MultiPolygon",
+            "coordinates": [
+                [
+                    [
+                        [
+                            37.97962873158702,
+                            55.90053255307136
+                        ],
+                        [
+                            37.979060565136116,
+                            55.90030316188681
+                        ],
+                        [
+                            37.97937008865041,
+                            55.900072580779856
+                        ],
+                        [
+                            37.97951213026314,
+                            55.900137951851434
+                        ],
+                        [
+                            37.97993825510132,
+                            55.900279390702025
+                        ],
+                        [
+                            37.97962873158702,
+                            55.90053255307136
+                        ]
+                    ]
+                ]
+            ]
+        },
+        "crs": {
+            "type": "name",
+            "properties": {
+                "name": "EPSG:4326"
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "cad_unit": "383",
+            "rifr_dep": null,
+            "cad_cost": 4486290.24,
+            "sale": null,
+            "id": "50:14:40110:1081",
+            "category_type": "003001000000",
+            "statecd": "06",
+            "rifr_dep_info": null,
+            "area_value": 2976.0,
+            "area_type": "009",
+            "kvartal_cn": "50:14:0040110",
+            "application_date": "01.01.2023",
+            "cn": "50:14:0040110:1081",
+            "parcel_tour": false,
+            "parcel_tour_attrs": null,
+            "is_big": false,
+            "sale_price": null,
+            "date_cost": "01.01.2022",
+            "parcel_build": false,
+            "rifr": null,
+            "parcel_type": "parcel",
+            "rifr_cnt": null,
+            "sale_doc_num": null,
+            "sale_doc_date": null,
+            "sale_doc_type": null,
+            "sale_dep_uo": null,
+            "address": "\u041c\u043e\u0441\u043a\u043e\u0432\u0441\u043a\u0430\u044f \u043e\u0431\u043b\u0430\u0441\u0442\u044c, \u0440-\u043d \u0429\u0435\u043b\u043a\u043e\u0432\u0441\u043a\u0438\u0439, \u0433 \u0429\u0435\u043b\u043a\u043e\u0432\u043e, \u044e\u0433\u043e-\u0437\u0430\u043f\u0430\u0434\u043d\u0435\u0435 \u043c\u0438\u043a\u0440\u043e\u0440\u0430\u0439\u043e\u043d\u0430 \u0416\u0435\u0433\u0430\u043b\u043e\u0432\u043e \u0433. \u0429\u0435\u043b\u043a\u043e\u0432\u043e",
+            "fp": 100,
+            "area_unit": "055",
+            "children": null,
+            "sale_cnt": null,
+            "sale_date": null,
+            "cc_date_entering": "25.12.2022",
+            "sale_dep": null,
+            "parcel_build_attrs": null,
+            "cc_date_approval": null,
+            "kvartal": "50:14:40110",
+            "util_by_doc": "\u0434\u043b\u044f \u0441\u0435\u043b\u044c\u0441\u043a\u043e\u0445\u043e\u0437\u044f\u0439\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0433\u043e \u043f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0441\u0442\u0432\u0430",
+            "center": {
+                "x": 37.97858590281447,
+                "y": 55.90049067115257
+            }
+        },
+        "geometry": {
+            "type": "MultiPolygon",
+            "coordinates": [
+                [
+                    [
+                        [
+                            37.978079989415264,
+                            55.90102829491981
+                        ],
+                        [
+                            37.977775783927456,
+                            55.900895369961034
+                        ],
+                        [
+                            37.97875997815273,
+                            55.9002282302693
+                        ],
+                        [
+                            37.979193918333884,
+                            55.899879607595366
+                        ],
+                        [
+                            37.97924760165526,
+                            55.89999497947462
+                        ],
+                        [
+                            37.97936391551825,
+                            55.90007774604616
+                        ],
+                        [
+                            37.978079989415264,
+                            55.90102829491981
+                        ]
+                    ]
+                ]
+            ]
+        },
+        "crs": {
+            "type": "name",
+            "properties": {
+                "name": "EPSG:4326"
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "parcel_type": "parcel",
+            "date_cost": "01.01.2022",
+            "statecd": "01",
+            "rifr": null,
+            "cn": "50:14:0040110:1087",
+            "rifr_cnt": null,
+            "rifr_dep_info": null,
+            "parcel_build": false,
+            "application_date": "01.01.2023",
+            "kvartal": "50:14:20352",
+            "sale_dep_uo": null,
+            "kvartal_cn": "50:14:0020352",
+            "cc_date_entering": "25.12.2022",
+            "parcel_build_attrs": null,
+            "parcel_tour_attrs": null,
+            "sale_price": null,
+            "area_value": 735.0,
+            "id": "50:14:40110:1087",
+            "sale_dep": null,
+            "category_type": "003002000000",
+            "sale_doc_date": null,
+            "address": "\u041c\u043e\u0441\u043a\u043e\u0432\u0441\u043a\u0430\u044f \u043e\u0431\u043b\u0430\u0441\u0442\u044c, \u0440-\u043d \u0429\u0435\u043b\u043a\u043e\u0432\u0441\u043a\u0438\u0439, \u0441/\u0442 \"\u0412\u0435\u0441\u043d\u0430\", \u0443\u0447. 33",
+            "cad_unit": "383",
+            "is_big": false,
+            "children": null,
+            "sale": null,
+            "util_by_doc": "\u0434\u043b\u044f \u0441\u0430\u0434\u043e\u0432\u043e\u0434\u0441\u0442\u0432\u0430",
+            "sale_doc_type": null,
+            "area_type": "009",
+            "fp": 100,
+            "area_unit": "055",
+            "parcel_tour": false,
+            "sale_doc_num": null,
+            "cc_date_approval": null,
+            "cad_cost": 818687.1,
+            "sale_cnt": null,
+            "rifr_dep": null,
+            "sale_date": null,
+            "center": {
+                "x": 38.15856787492007,
+                "y": 56.064263778844214
+            }
+        },
+        "geometry": {
+            "type": "MultiPolygon",
+            "coordinates": [
+                [
+                    [
+                        [
+                            38.15864229092334,
+                            56.064450802299305
+                        ],
+                        [
+                            38.15827703592881,
+                            56.06424308314222
+                        ],
+                        [
+                            38.15847843821551,
+                            56.064078240996295
+                        ],
+                        [
+                            38.15886076120044,
+                            56.06428119683285
+                        ],
+                        [
+                            38.15864229092334,
+                            56.064450802299305
+                        ]
+                    ]
+                ]
+            ]
+        },
+        "crs": {
+            "type": "name",
+            "properties": {
+                "name": "EPSG:4326"
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "address": "\u043e\u0431\u043b. \u041c\u043e\u0441\u043a\u043e\u0432\u0441\u043a\u0430\u044f, \u0440-\u043d \u0429\u0435\u043b\u043a\u043e\u0432\u0441\u043a\u0438\u0439 , \u0441/\u0442 \"\u0412\u0435\u0441\u043d\u0430\", \u0443\u0447\u0430\u0441\u0442\u043e\u043a 1",
+            "cc_date_entering": "25.12.2022",
+            "kvartal": "50:14:20352",
+            "sale_dep": null,
+            "cad_cost": 735378.6,
+            "sale_cnt": null,
+            "parcel_tour": false,
+            "parcel_build": false,
+            "sale_dep_uo": null,
+            "sale": null,
+            "fp": 100,
+            "area_value": 660.0,
+            "date_cost": "01.01.2022",
+            "area_type": "009",
+            "rifr_dep_info": null,
+            "parcel_build_attrs": null,
+            "parcel_type": "parcel",
+            "sale_date": null,
+            "rifr_dep": null,
+            "kvartal_cn": "50:14:0020352",
+            "sale_doc_date": null,
+            "id": "50:14:40110:1108",
+            "children": null,
+            "sale_doc_type": null,
+            "parcel_tour_attrs": null,
+            "cad_unit": "383",
+            "rifr": null,
+            "rifr_cnt": null,
+            "application_date": "01.01.2023",
+            "sale_price": null,
+            "statecd": "01",
+            "cn": "50:14:0040110:1108",
+            "area_unit": "055",
+            "cc_date_approval": null,
+            "is_big": false,
+            "category_type": "003008000000",
+            "sale_doc_num": null,
+            "util_by_doc": "\u0434\u043b\u044f \u0441\u0430\u0434\u043e\u0432\u043e\u0434\u0441\u0442\u0432\u0430",
+            "center": {
+                "x": 38.152792700844,
+                "y": 56.06188162020746
+            }
+        },
+        "geometry": {
+            "type": "MultiPolygon",
+            "coordinates": [
+                [
+                    [
+                        [
+                            38.152627363176386,
+                            56.06212376916827
+                        ],
+                        [
+                            38.152528764090796,
+                            56.06205074724184
+                        ],
+                        [
+                            38.15284669583615,
+                            56.06166316700969
+                        ],
+                        [
+                            38.153076089627106,
+                            56.06176876896634
+                        ],
+                        [
+                            38.152627363176386,
+                            56.06212376916827
+                        ]
+                    ]
+                ]
+            ]
+        },
+        "crs": {
+            "type": "name",
+            "properties": {
+                "name": "EPSG:4326"
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "parcel_type": "parcel",
+            "cc_date_approval": null,
+            "cc_date_entering": "25.12.2022",
+            "cad_cost": 6950482.02,
+            "sale_cnt": null,
+            "sale_date": null,
+            "rifr_cnt": null,
+            "address": "\u041c\u043e\u0441\u043a\u043e\u0432\u0441\u043a\u0430\u044f \u043e\u0431\u043b\u0430\u0441\u0442\u044c, \u0440-\u043d \u0429\u0435\u043b\u043a\u043e\u0432\u0441\u043a\u0438\u0439, \u0433 \u0429\u0435\u043b\u043a\u043e\u0432\u043e",
+            "parcel_build_attrs": null,
+            "kvartal": "50:14:40110",
+            "area_value": 1062.0,
+            "rifr_dep_info": null,
+            "category_type": "003002000000",
+            "is_big": false,
+            "kvartal_cn": "50:14:0040110",
+            "sale_dep": null,
+            "application_date": "01.01.2023",
+            "sale_doc_date": null,
+            "area_type": "009",
+            "sale_doc_num": null,
+            "util_by_doc": "\u0434\u043b\u044f \u043a\u043e\u043c\u043f\u043b\u0435\u043a\u0441\u043d\u043e\u0433\u043e \u043e\u0441\u0432\u043e\u0435\u043d\u0438\u044f \u0432 \u0446\u0435\u043b\u044f\u0445 \u0436\u0438\u043b\u0438\u0449\u043d\u043e\u0433\u043e \u0441\u0442\u0440\u043e\u0438\u0442\u0435\u043b\u044c\u0441\u0442\u0432\u0430",
+            "id": "50:14:40110:1110",
+            "date_cost": "01.01.2022",
+            "sale_dep_uo": null,
+            "cad_unit": "383",
+            "children": null,
+            "area_unit": "055",
+            "sale_price": null,
+            "rifr_dep": null,
+            "cn": "50:14:0040110:1110",
+            "fp": 100,
+            "parcel_build": false,
+            "sale": null,
+            "statecd": "06",
+            "rifr": null,
+            "sale_doc_type": null,
+            "parcel_tour": false,
+            "parcel_tour_attrs": null,
+            "center": {
+                "x": 37.98310247757807,
+                "y": 55.906994273289904
+            }
+        },
+        "geometry": {
+            "type": "MultiPolygon",
+            "coordinates": [
+                [
+                    [
+                        [
+                            37.98294645784949,
+                            55.9071699606951
+                        ],
+                        [
+                            37.98276862735585,
+                            55.90687091869899
+                        ],
+                        [
+                            37.983176911652485,
+                            55.90681904383234
+                        ],
+                        [
+                            37.98349446610542,
+                            55.90708858895173
+                        ],
+                        [
+                            37.98294645784949,
+                            55.9071699606951
+                        ]
+                    ]
+                ]
+            ]
+        },
+        "crs": {
+            "type": "name",
+            "properties": {
+                "name": "EPSG:4326"
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "application_date": "01.01.2023",
+            "rifr_dep_info": null,
+            "sale_doc_type": null,
+            "sale_doc_date": null,
+            "util_by_doc": "\u041e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435 \u0436\u0438\u043b\u043e\u0439 \u0437\u0430\u0441\u0442\u0440\u043e\u0439\u043a\u0438",
+            "area_value": 938.0,
+            "sale_dep_uo": null,
+            "cn": "50:14:0040110:1111",
+            "fp": 100,
+            "sale_price": null,
+            "area_unit": "055",
+            "date_cost": "01.01.2022",
+            "kvartal_cn": "50:14:0040110",
+            "rifr_cnt": null,
+            "parcel_build": false,
+            "sale_dep": null,
+            "children": null,
+            "id": "50:14:40110:1111",
+            "parcel_tour": false,
+            "sale_cnt": null,
+            "rifr_dep": null,
+            "sale_doc_num": null,
+            "rifr": null,
+            "category_type": "003002000000",
+            "sale_date": null,
+            "sale": null,
+            "parcel_build_attrs": null,
+            "cad_cost": 2563244.46,
+            "is_big": false,
+            "area_type": "009",
+            "address": "\u041c\u043e\u0441\u043a\u043e\u0432\u0441\u043a\u0430\u044f \u043e\u0431\u043b\u0430\u0441\u0442\u044c, \u0440-\u043d \u0429\u0435\u043b\u043a\u043e\u0432\u0441\u043a\u0438\u0439, \u0433 \u0429\u0435\u043b\u043a\u043e\u0432\u043e",
+            "kvartal": "50:14:40110",
+            "cc_date_approval": null,
+            "cc_date_entering": "25.12.2022",
+            "cad_unit": "383",
+            "parcel_type": "parcel",
+            "parcel_tour_attrs": null,
+            "statecd": "06",
+            "center": {
+                "x": 37.98329764696827,
+                "y": 55.90723386970383
+            }
+        },
+        "geometry": {
+            "type": "MultiPolygon",
+            "coordinates": [
+                [
+                    [
+                        [
+                            37.9830838993791,
+                            55.90740119037748
+                        ],
+                        [
+                            37.98294749918637,
+                            55.907170772312476
+                        ],
+                        [
+                            37.98349496845312,
+                            55.90708907830614
+                        ],
+                        [
+                            37.983693029006965,
+                            55.90725770292508
+                        ],
+                        [
+                            37.9830838993791,
+                            55.90740119037748
+                        ]
+                    ]
+                ]
+            ]
+        },
+        "crs": {
+            "type": "name",
+            "properties": {
+                "name": "EPSG:4326"
+            }
+        }
+    }
+]
+}
