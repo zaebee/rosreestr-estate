@@ -8,12 +8,13 @@ import SupportIcon from './icons/IconSupport.vue'
 import Map from '../components/Map.vue'
 import Polygon from '../components/Polygon.vue'
 import { ref } from 'vue'
-import VCodeBlock from '@wdns/vue-code-block';
+import VCodeBlock from '@wdns/vue-code-block'
 
 const code = ref(`<iframe
   src="https://7kfs9x-4173.csb.app/"
-  style="width:450px; height:700px; border:0; overflow:hidden;">
-</iframe>`);
+  style="width:450px; height:700px; 
+   border:0; overflow:hidden;">
+</iframe>`)
 </script>
 
 <template>
@@ -22,10 +23,14 @@ const code = ref(`<iframe
       <DocumentationIcon />
     </template>
     <template #heading>Пример кода виджета</template>
-    <VCodeBlock :code="code" highlightjs label="Код для встравания" lang="javascript" theme="neon-bunny" />
+    <VCodeBlock
+      :code="code"
+      highlightjs
+      label="Код для встравания"
+      lang="javascript"
+      theme="neon-bunny"
+    />
   </WelcomeItem>
-
-
 
   <WelcomeItem>
     <template #icon>
@@ -50,5 +55,4 @@ const code = ref(`<iframe
     <a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">Awesome Vue</a>
     a visit.
   </WelcomeItem>
-
 </template>
