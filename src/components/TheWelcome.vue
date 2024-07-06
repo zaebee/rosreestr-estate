@@ -5,7 +5,6 @@ import ToolingIcon from './icons/IconTooling.vue'
 import EcosystemIcon from './icons/IconEcosystem.vue'
 import CommunityIcon from './icons/IconCommunity.vue'
 import SupportIcon from './icons/IconSupport.vue'
-import Map from '../components/Map.vue'
 import Polygon from '../components/Polygon.vue'
 import { ref } from 'vue'
 import VCodeBlock from '@wdns/vue-code-block'
@@ -26,7 +25,7 @@ const code = ref(`<iframe
     <VCodeBlock
       :code="code"
       highlightjs
-      label="Код для встравания"
+      label="Код для встраивания"
       lang="javascript"
       theme="neon-bunny"
     />
