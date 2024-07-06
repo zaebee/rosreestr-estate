@@ -5,22 +5,21 @@ import {initYmaps } from 'vue-yandex-maps'
 
 import { estateStore } from '@/stores/estate';
 
-const TheWelcome = defineAsyncComponent(() =>
-  import('../components/TheWelcome.vue')
-)
 const route = useRoute();
 const estate = estateStore()
 const city = route.params.city
 
 onServerPrefetch(async() => {
   await estate.getGeometry(city)
-  await initYmaps()
-  
+  initYmaps()
 })
 onBeforeMount(async() => {
   await estate.getGeometry(city)
-  await initYmaps()
+  initYmaps()
 })
+const TheWelcome = defineAsyncComponent(() =>
+  import('../components/TheWelcome.vue')
+)
 </script>
 
 <template>

@@ -27,10 +27,9 @@
 
 <script setup lang="ts">
 import { useRoute } from 'vue-router';
-import { onBeforeMount, onBeforeUnmount, onMounted, ref, shallowRef, onServerPrefetch, watch } from 'vue'
+import { defineAsyncComponent, onBeforeUnmount, onMounted, ref, shallowRef, onServerPrefetch, watch } from 'vue'
 
 import {
-  initYmaps,
   YandexMap,
   YandexMapControls,
   YandexMapDefaultFeaturesLayer,
@@ -45,6 +44,7 @@ import type { YMapLocationRequest } from '@yandex/ymaps3-types/imperative/YMap'
 import type { Geometry } from '@yandex/ymaps3-types/imperative/YMapFeature/types'
 import { estateStore } from '@/stores/estate';
 import type { EstateGeometry } from '@/services/api'
+
 const route = useRoute();
 const estate = estateStore()
 const city = route.params.city
@@ -100,27 +100,13 @@ const markers: { coordinates: LngLat, cn: number }[] = estate.cityGeometry.map((
   }
 })
 
-const reactivityTestCounter = ref(0)
-onMounted(async() => {
-  const interval = setInterval(() => reactivityTestCounter.value++, 1000)
-  onBeforeUnmount(() => clearInterval(interval))
 
-})
 watch(VueYandexMaps.loadStatus, (val) => {
   console.log(val); //pending | loading | loaded | error
   console.log(VueYandexMaps.loadError); //null | Error | script onerror (Event | string)
 });
 
-onBeforeMount(async() => {
-  await estate.getGeometry(city)
-  await initYmaps()
-  
-})
-onServerPrefetch(async() => {
-  await estate.getGeometry(city)
-  await initYmaps()
-  
-})
+
 </script>
 
 <style scoped>
