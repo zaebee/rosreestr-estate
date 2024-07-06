@@ -18,7 +18,11 @@
     }">
       <div :class="openMarker === index ? 'marker clicked' : 'marker'">{{ marker.cn }}
         <div v-if="openMarker === index" class="popup" @click.stop="openMarker = null">
-          Click me to close popup {{ city }}
+          <h3>{{ city }}: {{ marker.cn }}</h3>
+          <p>Статус: {{ marker.status }}</p>
+          <p>Цена: {{ marker.cad_cost }} руб</p>
+          <img src="https://placehold.co/100x100/png"><br>
+          <button>Детали</button>
         </div>
       </div>
     </yandex-map-marker>
@@ -79,7 +83,12 @@ const defaultSettings = {
 const features: YMapFeatureProps[] = data.value.map((item) => {
   let item_cn: string[] = item.properties.cn.split(':')
   let item_last_cn: number = parseInt(item_cn[item_cn.length - 1])
-  let fill = item_last_cn % 2 == 0 ? 'rgba(56, 56, 219, 0.5)' : 'rgba(21, 56, 21, 0.5)'
+  let fill = 'rgba(21, 56, 21, 0.75)'
+
+  if (item_last_cn >= 2257 && item_last_cn <= 2297) {
+    fill = 'rgba(191, 62, 62, 0.75)'
+  }
+  // item_last_cn >= 2257 && item_last_cn <= 2297 ? 'rgba(191, 62, 62, 0.75)' : 'rgba(21, 56, 21, 0.75)'
   return {
     ...defaultSettings,
     style: {
@@ -90,13 +99,19 @@ const features: YMapFeatureProps[] = data.value.map((item) => {
   }
 })
 
-const markers: { coordinates: LngLat, cn: number }[] = estate.cityGeometry.map((item) => {
+const markers: { coordinates: LngLat, cn: number, cad_cost: number, status: string }[] = estate.cityGeometry.map((item) => {
   let center = item.properties.center
   let item_cn: string[] = item.properties.cn.split(':')
   let item_last_cn: number = parseInt(item_cn[item_cn.length - 1].trim(), 10)
+  let status = 'Продается'
+  if (item_last_cn >= 2257 && item_last_cn <= 2297) {
+    status = 'В резерве'
+  }
   return {
     coordinates: [center.x, center.y],
-    cn: item_last_cn
+    cn: item_last_cn,
+    cad_cost: item.properties.cad_cost,
+    status: status
   }
 })
 
@@ -111,7 +126,7 @@ watch(VueYandexMaps.loadStatus, (val) => {
 
 <style scoped>
 .marker-popup {
-  background: #fff;
+  background: rgba(191, 62, 62, 0.759);
   border-radius: 10px;
   padding: 10px;
   color: black;
