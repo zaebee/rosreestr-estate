@@ -8,7 +8,10 @@ const router = createRouter({
       path: '/',
       name: 'home',
       component: HomeView,
-      props: true
+      props: true,
+      meta: {
+        city: "krasnodar"
+      }
     },
     {
       path: '/c/:city',
