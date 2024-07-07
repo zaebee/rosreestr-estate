@@ -1,25 +1,25 @@
 <script setup lang="ts">
 import { useRoute } from 'vue-router';
-import { onBeforeMount, defineAsyncComponent, onServerPrefetch } from 'vue'
+import { onBeforeMount, defineAsyncComponent, onServerPrefetch, compile } from 'vue'
 import {initYmaps } from 'vue-yandex-maps'
 
 import { estateStore } from '@/stores/estate';
+import TheWelcome from '../components/TheWelcome.vue'
 
 const route = useRoute();
 const estate = estateStore()
-const city = route.params.city
+const city =  route.params.city || route.meta.city as string
 
-onServerPrefetch(async() => {
-  await estate.getGeometry(city)
-  initYmaps()
+
+onServerPrefetch(() => {
+  estate.getGeometry(city).then(initYmaps)
+//  initYmaps()
 })
-onBeforeMount(async() => {
-  await estate.getGeometry(city)
-  initYmaps()
+onBeforeMount(() => {
+  estate.getGeometry(city).then(initYmaps)
+  //initYmaps()
 })
-const TheWelcome = defineAsyncComponent(() =>
-  import('../components/TheWelcome.vue')
-)
+
 </script>
 
 <template>

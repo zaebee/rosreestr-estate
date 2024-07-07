@@ -1,19 +1,27 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
+import Bullets from './components/Bullets.vue'
+
 </script>
 
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
-
     <div class="wrapper">
-      <HelloWorld msg="Карта с генеральным планом" />
-
-      <nav>
-        <RouterLink to="/">Главная</RouterLink>
-        <RouterLink to="/about">О нас</RouterLink>
-      </nav>
+      <v-row>
+        <v-col cols="12" md="12">
+          <HelloWorld msg="Установите интерактивный генеральный план поселка на любой сайт!" />
+        </v-col>
+      </v-row>
+      
+      <v-row>
+        <v-col cols="12" md="6">
+          <v-btn color="secondary" variant="elevated">
+            Написать нам
+          </v-btn>
+        </v-col>
+      </v-row>
+      <Bullets />
     </div>
   </header>
 
