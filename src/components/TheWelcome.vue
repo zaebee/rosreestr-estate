@@ -26,13 +26,15 @@ const Polygon = defineAsyncComponent(() =>
       <DocumentationIcon />
     </template>
     <template #heading>Пример виджета</template>
-    <VCodeBlock
+    <div class="highlight-code">
+      <VCodeBlock
       :code="code"
       highlightjs
       label="Скопируйте код для встраивания на ваш сайт"
       lang="javascript"
       theme="neon-bunny"
     />
+    </div>
   </WelcomeItem>
 
   <WelcomeItem>
@@ -59,3 +61,11 @@ const Polygon = defineAsyncComponent(() =>
     a visit.
   </WelcomeItem>
 </template>
+
+<style scoped>
+@media (max-width: 600px) {
+  .highlight-code {
+    max-width: 250px;
+}
+}
+</style>
