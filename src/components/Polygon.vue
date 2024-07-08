@@ -59,7 +59,7 @@ import type { Geometry } from '@yandex/ymaps3-types/imperative/YMapFeature/types
 import { estateStore } from '@/stores/estate';
 import type { EstateGeometry, Marker } from '@/services/api'
 
-const overlay = ref<boolean>(true)
+const overlay = ref<boolean>(false)
 const route = useRoute();
 const estate = estateStore()
 const city = route.params.city
