@@ -25,11 +25,11 @@ const Polygon = defineAsyncComponent(() =>
     <template #icon>
       <DocumentationIcon />
     </template>
-    <template #heading>Пример кода виджета</template>
+    <template #heading>Пример виджета</template>
     <VCodeBlock
       :code="code"
       highlightjs
-      label="Код для встраивания"
+      label="Скопируйте код для встраивания на ваш сайт"
       lang="javascript"
       theme="neon-bunny"
     />

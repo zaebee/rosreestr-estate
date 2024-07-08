@@ -1,8 +1,11 @@
 <script setup lang="ts">
+import {ref} from 'vue'
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
 import Bullets from './components/Bullets.vue'
+import LeadForm from './components/LeadForm.vue'
 
+const showForm = ref<boolean>(false)
 </script>
 
 <template>
@@ -15,10 +18,16 @@ import Bullets from './components/Bullets.vue'
       </v-row>
       
       <v-row>
-        <v-col cols="12" md="6">
-          <v-btn color="secondary" variant="elevated">
+        <v-col cols="12" md="12">
+          <v-btn color="secondary" variant="elevated" @click="showForm = !showForm">
             Написать нам
           </v-btn>
+          <Transition :duration="550" name="nested">
+          <div v-if="showForm">
+            <LeadForm/>
+          </div>
+          </Transition>
+          
         </v-col>
       </v-row>
       <Bullets />
@@ -29,6 +38,19 @@ import Bullets from './components/Bullets.vue'
 </template>
 
 <style scoped>
+.nested-enter-active, .nested-leave-active {
+	transition: all 0.3s ease-in-out;
+}
+/* delay leave of parent element */
+.nested-leave-active {
+  transition-delay: 0.25s;
+}
+
+.nested-enter-from,
+.nested-leave-to {
+  transform: translateY(30px);
+  opacity: 0;
+}
 header {
   line-height: 1.5;
   max-height: 100vh;

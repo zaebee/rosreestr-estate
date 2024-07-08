@@ -12,11 +12,11 @@ const city =  route.params.city || route.meta.city as string
 
 
 onServerPrefetch(() => {
-  estate.getGeometry(city).then(initYmaps)
+  estate.getGeometry(city)//.then(initYmaps)
 //  initYmaps()
 })
 onBeforeMount(() => {
-  estate.getGeometry(city).then(initYmaps)
+  estate.getGeometry(city)//.then(initYmaps)
   //initYmaps()
 })
 

@@ -1,5 +1,4 @@
 <template>
-  {{ estate.cityCenter }}
   <yandex-map v-model="map" height="400px" :settings="{
     location: location,
     showScaleInCopyrights: true
@@ -13,23 +12,33 @@
     <yandex-map-feature v-for="(feature, index) in features" :key="index" :settings="feature" />
     <yandex-map-marker v-for="(marker, index) in markers" :key="index" :settings="{
       coordinates: marker.coordinates,
-      onClick: () => (openMarker = index),
-      zIndex: openMarker === index ? 1 : 0
+      onClick: () => (activateMarker(marker)),
+      zIndex: activeMarker === marker ? 1 : 0
     }">
-      <div :class="openMarker === index ? 'marker clicked' : 'marker'">{{ marker.cn }}
-        <div v-if="openMarker === index" class="popup" @click.stop="openMarker = null">
-          <h3>{{ city }}: {{ marker.cn }}</h3>
-          <p>Статус: {{ marker.status }}</p>
-          <p>Цена: {{ marker.cad_cost }} руб</p>
-          <img src="https://placehold.co/100x100/png"><br>
-          <button>Детали</button>
-        </div>
-      </div>
+      <div class="marker">{{ marker.cn }}</div>
     </yandex-map-marker>
+
   </yandex-map>
+  <v-overlay v-model="overlay" class="align-center justify-center" contained>
+    <v-card class="mx-auto popup">
+      <v-img height="200px" src="https://cdn.vuetifyjs.com/images/cards/sunshine.jpg" cover></v-img>
+
+      <v-card-title class="py-0 px-3">Участок {{activeMarker?.cn}}</v-card-title>
+      <v-card-text class="px-3">
+        <div>{{ activeMarker?.status }}</div>
+
+        <div>Цена: {{ activeMarker?.cad_cost }} руб</div>
+      </v-card-text>
+      <v-divider></v-divider>
+      <v-card-actions class="px-3">
+        <v-btn color="secondary" variant="elevated" text="Детали"></v-btn>
+      </v-card-actions>
+    </v-card>
+  </v-overlay>
 </template>
 
 <script setup lang="ts">
+
 import { useRoute } from 'vue-router';
 import { defineAsyncComponent, onBeforeUnmount, onBeforeMount, ref, shallowRef, onServerPrefetch, watch } from 'vue'
 
@@ -48,21 +57,20 @@ import type { LngLat, YMap, YMapFeatureProps, YMapMarker } from '@yandex/ymaps3-
 import type { YMapLocationRequest } from '@yandex/ymaps3-types/imperative/YMap'
 import type { Geometry } from '@yandex/ymaps3-types/imperative/YMapFeature/types'
 import { estateStore } from '@/stores/estate';
-import type { EstateGeometry } from '@/services/api'
+import type { EstateGeometry, Marker } from '@/services/api'
 
+const overlay = ref<boolean>(true)
 const route = useRoute();
 const estate = estateStore()
 const city = route.params.city
 
 const data = ref<EstateGeometry[]>(estate.cityGeometry)
-const center = ref<[number, number]>(estate.cityCenter)
-const map = shallowRef<YMap | null>(null)
-const openMarker = ref<null | number>(null)
-
-const location: YMapLocationRequest = {
+const location = ref<YMapLocationRequest>({
   center: estate.cityCenter as LngLat, // starting position [lng, lat]
   zoom: 17 // starting zoom
-}
+})
+const map = shallowRef<YMap | null>(null)
+const activeMarker = ref<null | Marker>(estate.activeMarker)
 
 const defaultSettings = {
   geometry: {
@@ -100,7 +108,7 @@ const features: YMapFeatureProps[] = data.value.map((item) => {
   }
 })
 
-const markers: { coordinates: LngLat, cn: number, cad_cost: number, status: string }[] = estate.cityGeometry.map((item) => {
+const markers: Marker[] = estate.cityGeometry.map((item) => {
   let center = item.properties.center
   let item_cn: string[] = item.properties.cn.split(':')
   let item_last_cn: number = parseInt(item_cn[item_cn.length - 1].trim(), 10)
@@ -113,19 +121,25 @@ const markers: { coordinates: LngLat, cn: number, cad_cost: number, status: stri
     cn: item_last_cn,
     cad_cost: item.properties.cad_cost,
     status: status
-  }
+  } as Marker
 })
 
+function activateMarker(marker: Marker) {
+  console.log(marker)
+  activeMarker.value = marker
+  overlay.value = true
+}
 
 watch(VueYandexMaps.loadStatus, (val) => {
-  console.log(val); //pending | loading | loaded | error
-  console.log(VueYandexMaps.loadError); //null | Error | script onerror (Event | string)
+  location.value = {
+    center: estate.cityCenter,
+    zoom: 17
+  }
+  map.value?.setLocation(location.value)
+  //map.value?.addChild(features.values)
+  console.log(val, map); //pending | loading | loaded | error
 });
-onBeforeMount(async() => {
-  await createYmaps({
-    apikey: ''
-  })
-  console.log()
+onBeforeMount(async () => {
 })
 </script>
 
@@ -167,16 +181,9 @@ onBeforeMount(async() => {
 }
 
 .popup {
-  position: absolute;
-  top: calc(10% + 10px);
-  background: #fff;
-  padding: 10px;
-  color: black;
   min-width: 200px;
-  text-align: center;
-  left: calc(30% + 10px);
   border: 1px solid #bababa;
-  box-shadow: 1px 1px 4px #bababa;
+
 }
 
 @-moz-keyframes spin {

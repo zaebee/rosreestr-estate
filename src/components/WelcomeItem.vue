@@ -20,6 +20,7 @@
 }
 
 .details {
+  position: relative;
   flex: 1;
   margin-left: 1rem;
 }
