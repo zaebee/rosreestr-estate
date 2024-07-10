@@ -8,6 +8,9 @@ import EcosystemIcon from './icons/IconEcosystem.vue'
 import CommunityIcon from './icons/IconCommunity.vue'
 import SupportIcon from './icons/IconSupport.vue'
 import VCodeBlock from '@wdns/vue-code-block'
+import { estateStore } from '@/stores/estate'
+
+const estate = estateStore()
 
 const code = ref(`<iframe
   src="https://7kfs9x-4173.csb.app/"
@@ -42,7 +45,7 @@ const Polygon = defineAsyncComponent(() =>
       <SupportIcon />
     </template>
     <template #heading>Пример карты</template>
-    <Polygon />
+    <Polygon :center="estate.cityCenter" :features="estate.cityGeometry" />
   </WelcomeItem>
 
   <WelcomeItem>

@@ -5,10 +5,14 @@ import { RouterView } from 'vue-router'
 </script>
 
 <template>
-  <v-container>
-    <RouterView />
-  </v-container>
-
+  <Suspense>
+    <v-container>
+      <RouterView />
+    </v-container>
+    <template #fallback>
+      Loading...
+    </template>
+  </Suspense>
 </template>
 
 <style scoped>

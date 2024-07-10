@@ -43,7 +43,6 @@ import { useRoute } from 'vue-router';
 import { defineAsyncComponent, onBeforeUnmount, onBeforeMount, ref, shallowRef, onServerPrefetch, watch } from 'vue'
 
 import {
-  createYmaps,
   YandexMap,
   YandexMapControls,
   YandexMapDefaultFeaturesLayer,
@@ -53,23 +52,32 @@ import {
   YandexMapZoomControl,
   VueYandexMaps
 } from 'vue-yandex-maps'
-import type { LngLat, YMap, YMapFeatureProps, YMapMarker } from '@yandex/ymaps3-types'
+import type { LngLat, YMap, YMapFeatureProps } from '@yandex/ymaps3-types'
 import type { YMapLocationRequest } from '@yandex/ymaps3-types/imperative/YMap'
-import type { Geometry } from '@yandex/ymaps3-types/imperative/YMapFeature/types'
-import { estateStore } from '@/stores/estate';
+
 import type { EstateGeometry, Marker } from '@/services/api'
+import api from '@/services/api';
+
+
+const props = defineProps({
+  center: {
+    type: Array<Number>,
+    required: true
+  },
+  features: {
+    type: Array<EstateGeometry>,
+    required: true
+  },
+})
 
 const overlay = ref<boolean>(false)
-const route = useRoute();
-const estate = estateStore()
 
-const data = ref<EstateGeometry[]>(estate.cityGeometry)
 const location = ref<YMapLocationRequest>({
-  center: estate.cityCenter as LngLat, // starting position [lng, lat]
-  zoom: 17 // starting zoom
+  center: props.center as LngLat,
+  zoom: 17
 })
 const map = shallowRef<YMap | null>(null)
-const activeMarker = ref<null | Marker>(estate.activeMarker)
+const activeMarker = ref<null | Marker>(null)
 
 const defaultSettings = {
   geometry: {
@@ -88,7 +96,7 @@ const defaultSettings = {
 } satisfies Omit<YMapFeatureProps, 'geometry'> & { geometry: Partial<YMapFeatureProps['geometry']> }
 
 
-const features: YMapFeatureProps[] = data.value.map((item) => {
+const features: YMapFeatureProps[] = props.features.map((item) => {
   let item_cn: string[] = item.properties.cn.split(':')
   let item_last_cn: number = parseInt(item_cn[item_cn.length - 1])
   let fill = 'rgba(0, 189, 126, 0.75)'
@@ -102,12 +110,12 @@ const features: YMapFeatureProps[] = data.value.map((item) => {
     style: {
       fill: fill
     },
-    geometry: item.geometry as Geometry,
+    geometry: item.geometry,
     properties: item.properties as Record<string, unknown>
   }
 })
 
-const markers: Marker[] = estate.cityGeometry.map((item) => {
+const markers: Marker[] = props.features.map((item) => {
   let center = item.properties.center
   let item_cn: string[] = item.properties.cn.split(':')
   let item_last_cn: number = parseInt(item_cn[item_cn.length - 1].trim(), 10)
@@ -129,30 +137,9 @@ function activateMarker(marker: Marker) {
   overlay.value = true
 }
 
-watch(VueYandexMaps.loadStatus, (val) => {
-  location.value = {
-    center: estate.cityCenter,
-    zoom: 17
-  }
-  map.value?.setLocation(location.value)
-  //map.value?.addChild(features.values)
-  console.log(val, map); //pending | loading | loaded | error
-});
-onBeforeMount(async () => {
-})
 </script>
 
 <style scoped>
-.marker-popup {
-  background: rgba(191, 62, 62, 0.759);
-  border-radius: 10px;
-  padding: 10px;
-  color: black;
-  cursor: pointer;
-  font-size: 14px;
-  white-space: nowrap;
-}
-
 .marker {
   display: block;
   cursor: pointer;

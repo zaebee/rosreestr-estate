@@ -27,7 +27,6 @@ app.use(router)
 
 app.use(createYmaps({
   apikey: '28a17595-ef93-4576-bd46-42eee945d1cb',
-  //'initializeOn': 'onPluginInit'
 }))
 app.component('VCodeBlock', VCodeBlock);
 app.mount('#app')

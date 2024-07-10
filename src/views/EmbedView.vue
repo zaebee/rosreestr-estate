@@ -1,34 +1,23 @@
 <script setup lang="ts">
-
+import { defineAsyncComponent } from 'vue'
 import { useRoute } from 'vue-router';
-import { onBeforeMount, onServerPrefetch } from 'vue'
-
 import { estateStore } from '@/stores/estate'
 
-import { defineAsyncComponent } from 'vue'
-
-const route = useRoute();
+const route = useRoute()
 const estate = estateStore()
 const city = route.params.city || route.meta.city as string
 
-onServerPrefetch(() => {
-  estate.getGeometry(city)//.then(initYmaps)
-  //  initYmaps()
-})
-onBeforeMount(() => {
-  estate.getGeometry(city)//.then(initYmaps)
-  //initYmaps()
-})
-const Polygon = defineAsyncComponent(() =>
-  import('../components/Polygon.vue')
+await estate.getGeometry(city)
+
+const Polygon = defineAsyncComponent(() => 
+  import('@/components/Polygon.vue')
 )
 </script>
 
 <template>
-  <main class="map-embedded">
-    <Polygon />
+    <main class="map-embedded">
+    <Polygon :center="estate.cityCenter" :features="estate.cityGeometry"/>
   </main>
-
 </template>
 
 
