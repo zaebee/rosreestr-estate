@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
+import Hello from './components/Hello.vue'
 import Bullets from './components/Bullets.vue'
 import LeadForm from './components/LeadForm.vue'
 import TelegramLoginBtn from './components/TelegramLoginBtn.vue'
@@ -15,7 +15,7 @@ const showForm = ref<boolean>(false)
       <v-col md="6" sm="12">
         <v-row>
           <v-col cols="12" md="12">
-            <HelloWorld msg="Установите интерактивный генеральный план поселка на любой сайт!" />
+            <Hello msg="Установите интерактивный генеральный план поселка на любой сайт!" />
           </v-col>
         </v-row>
 
