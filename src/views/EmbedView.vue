@@ -25,15 +25,18 @@ const Polygon = defineAsyncComponent(() =>
 </script>
 
 <template>
-  <main class="main">
+  <main class="map-embedded">
     <Polygon />
   </main>
 
 </template>
 
 
-<style scoped>
-.main {
+<style>
+html {
+  overflow-y: auto;
+}
+.map-embedded {
   position: absolute;
   top: 0;
   left: 0;
