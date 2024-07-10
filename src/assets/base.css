@@ -57,9 +57,7 @@
   margin: 0;
   font-weight: normal;
 }
-html {
-  overflow-y: auto!important;
-}
+
 body {
   min-height: 100vh;
   color: var(--color-text);
