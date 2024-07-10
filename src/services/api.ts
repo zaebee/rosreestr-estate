@@ -31,7 +31,8 @@ export default {
       archived: false,
       completed: false,
     }
-    const headers = { 'Authorization': 'Bearer BgKewu-U1W5TpjhUbPbliApPQMlf+fgso4xaiAHKmZfyuxugi-hupOKUwGwZbl37' }
+    const token = import.meta.env.VITE_YOUGILE_TOKEN
+    const headers = { 'Authorization': `Bearer ${token}` }
     const response = await axios.post('https://ru.yougile.com/api-v2/tasks ', data, {headers})
     return response.data
   }
