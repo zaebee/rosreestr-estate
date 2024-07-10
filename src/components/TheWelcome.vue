@@ -13,9 +13,9 @@ import { estateStore } from '@/stores/estate'
 const estate = estateStore()
 
 const code = ref(`<iframe
-  src="https://7kfs9x-4173.csb.app/"
+  src="https://genplan.zae.life/embed"
   style="width:450px; height:700px; 
-   border:0; overflow:hidden;">
+   border:0; overflow:hidden!important;">
 </iframe>`)
 
 const Polygon = defineAsyncComponent(() =>

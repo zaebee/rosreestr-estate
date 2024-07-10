@@ -22,7 +22,9 @@ const Polygon = defineAsyncComponent(() =>
 
 
 <style>
-
+html {
+  overflow-y: hidden;
+}
 .map-embedded {
   position: absolute;
   top: 0;
