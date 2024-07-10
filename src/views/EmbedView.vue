@@ -22,9 +22,7 @@ const Polygon = defineAsyncComponent(() =>
 
 
 <style>
-iframe html {
-  overflow-y: hidden;
-}
+
 .map-embedded {
   position: absolute;
   top: 0;
