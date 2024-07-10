@@ -20,22 +20,24 @@ onBeforeMount(() => {
   //initYmaps()
 })
 const Polygon = defineAsyncComponent(() =>
-    import('../components/Polygon.vue')
+  import('../components/Polygon.vue')
 )
 </script>
 
 <template>
-<main class="main">
-    <Polygon/>
-
-</main>
+  <main class="main">
+    <Polygon />
+  </main>
 
 </template>
 
 
 <style scoped>
 .main {
-    width: 400px;
-    height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 </style>
