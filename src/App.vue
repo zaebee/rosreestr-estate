@@ -1,45 +1,12 @@
 <script setup lang="ts">
-import { ref } from 'vue'
-import { RouterLink, RouterView } from 'vue-router'
-import Hello from './components/Hello.vue'
-import Bullets from './components/Bullets.vue'
-import LeadForm from './components/LeadForm.vue'
-import TelegramLoginBtn from './components/TelegramLoginBtn.vue'
 
-const showForm = ref<boolean>(false)
+import { RouterView } from 'vue-router'
+
 </script>
 
 <template>
   <v-container>
-    <v-row>
-      <v-col md="6" sm="12">
-        <v-row>
-          <v-col cols="12" md="12">
-            <Hello msg="Установите интерактивный генеральный план поселка на любой сайт!" />
-          </v-col>
-        </v-row>
-
-        <v-row>
-          <v-col cols="12" md="6">
-            <v-btn color="secondary" variant="elevated" @click="showForm = !showForm">
-              Написать нам
-            </v-btn>
-            <Transition :duration="550" name="nested">
-              <div v-if="showForm">
-                <LeadForm />
-              </div>
-            </Transition>
-          </v-col>
-          <v-col cols="12" md="6">
-            <TelegramLoginBtn />
-          </v-col>
-        </v-row>
-        <Bullets />
-      </v-col>
-      <v-col md="6" sm="12">
-        <RouterView />
-      </v-col>
-    </v-row>
+    <RouterView />
   </v-container>
 
 </template>

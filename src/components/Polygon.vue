@@ -62,7 +62,6 @@ import type { EstateGeometry, Marker } from '@/services/api'
 const overlay = ref<boolean>(false)
 const route = useRoute();
 const estate = estateStore()
-const city = route.params.city
 
 const data = ref<EstateGeometry[]>(estate.cityGeometry)
 const location = ref<YMapLocationRequest>({
