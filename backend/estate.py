@@ -9,6 +9,7 @@ def get_polygons(start, end, prefix=None):
     prefix = prefix or PREFIX
     areas = [f'{prefix}:{index}' for index in range(start, end + 1)]
     for area in areas:
-        a = Area(area, with_proxy=True)
+        a = Area(area)
         if a.get_center_xy():
             yield json.loads(a.to_geojson_poly())
+            

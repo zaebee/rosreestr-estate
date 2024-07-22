@@ -1,6 +1,11 @@
 """DB connector."""
 
 import os
+import pandas as pd
+from dotenv import load_dotenv
+import numpy as np
+import datetime as dt
+
 from sqlalchemy import create_engine
 
 from sqlalchemy import Column, Integer, String, ForeignKey, Table
@@ -13,7 +18,16 @@ PREFIX = os.path.dirname(os.path.abspath(__file__))
 db_path = os.path.join(PREFIX, 'estate.db')
 engine = create_engine(f'sqlite:///{db_path}')
 
+load_dotenv()
+
+SHEET_ID = os.getenv('SHEET_ID')
+G_IDS = ['959471842', '299460191']
+
+EXPORT_URL = 'https://docs.google.com/spreadsheets/d/{id}/export?gid={gid}&format=csv'
+
+
 Base = declarative_base()
+Session = sessionmaker(bind=engine)
 
 class Estate(Base):
     __tablename__ = 'estate'
@@ -22,6 +36,15 @@ class Estate(Base):
     name = Column(String)
     geometry = Column(JSON)
     
-Base.metadata.create_all(engine)
+    def __repr__(self):
+        return f'[{self.id}]: {self.owner} - {self.name}'
 
-Session = sessionmaker(bind=engine)
+class Storage:
+    def __init__(self, url):
+        """Gets orders from gsheet file or from csv.
+        """
+        df = pd.read_csv(url, index_col=0).reset_index()
+        df = df.rename(str.lower, axis='columns')
+        df = df.rename(str.strip, axis='columns')
+    
+Base.metadata.create_all(engine)
