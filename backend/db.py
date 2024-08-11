@@ -29,6 +29,7 @@ EXPORT_URL = 'https://docs.google.com/spreadsheets/d/{id}/export?gid={gid}&forma
 Base = declarative_base()
 Session = sessionmaker(bind=engine)
 
+
 class Estate(Base):
     __tablename__ = 'estate'
     id = Column(Integer, primary_key=True)
@@ -39,12 +40,15 @@ class Estate(Base):
     def __repr__(self):
         return f'[{self.id}]: {self.owner} - {self.name}'
 
+
 class Storage:
-    def __init__(self, url):
+    def __init__(self, _id, gid):
         """Gets orders from gsheet file or from csv.
         """
+        url = EXPORT_URL.format(id=_id, gid=gid)
         df = pd.read_csv(url, index_col=0).reset_index()
         df = df.rename(str.lower, axis='columns')
         df = df.rename(str.strip, axis='columns')
+        self.df = df
     
 Base.metadata.create_all(engine)
