@@ -3,6 +3,8 @@ import { defineAsyncComponent } from 'vue'
 import { useRoute } from 'vue-router';
 import { estateStore } from '@/stores/estate'
 
+import { DiscussionWidget } from 'vue-tg'
+
 const route = useRoute()
 const estate = estateStore()
 const city = route.params.city || route.meta.city as string
@@ -17,6 +19,9 @@ const Polygon = defineAsyncComponent(() =>
 <template>
     <main class="map-embedded">
     <Polygon :center="estate.cityCenter" :features="estate.cityGeometry"/>
+    <div class="discuss">
+      <DiscussionWidget url="contest/198" />
+    </div>
   </main>
 </template>
 
@@ -31,5 +36,9 @@ html {
   left: 0;
   width: 100%;
   height: 100%;
+}
+.discuss {
+  width: 50vw;
+  margin: 0 auto;
 }
 </style>

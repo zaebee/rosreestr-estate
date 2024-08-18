@@ -1,7 +1,7 @@
 <template>
-    <v-sheet v-if="!estate.leadSaved" class="bg-grey-darken-4 mt-6" width="300" rounded>
+    <v-sheet v-if="!estate.leadSaved" class="mt-6" width="300" rounded>
         <v-form fast-fail @submit.prevent>
-            <v-text-field v-model="name" label="Имя"></v-text-field>
+            <v-text-field :rules="rules" v-model="name" label="Имя"></v-text-field>
             <v-text-field v-model="phone" label="Телефон"></v-text-field>
             <v-btn class="mt-2" type="submit" color="secondary" variant="elevated" block @click="send">Отправить</v-btn>
         </v-form>
@@ -20,6 +20,7 @@
 <script setup lang="ts">
 
 import { ref } from 'vue'
+import { useField, useForm } from 'vee-validate'
 import { estateStore } from '@/stores/estate';
 
 const estate = estateStore()
@@ -27,8 +28,17 @@ const name = ref<string>('')
 const phone = ref<string>('+7')
 const leadSaved = ref<boolean>(false)
 
+const rules = [
+        (value:string) => {
+          if (value) return true
+          return 'Имя не может быть пустым.'
+        },
+      ]
+
 function send() {
-    console.log('send')
+    if (!name.value || !phone.value) {
+        return
+    }
     estate.postLead(name.value, phone.value).then(() => {
         console.log('lead saved')
         leadSaved.value = true

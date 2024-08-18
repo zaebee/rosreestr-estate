@@ -14,7 +14,7 @@ const router = createRouter({
       }
     },
     {
-      path: '/embed',
+      path: '/embed/:city',
       name: 'embed',
       component: () => import('../views/EmbedView.vue'),
       props: true,
