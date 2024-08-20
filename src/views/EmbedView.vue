@@ -4,6 +4,7 @@ import { useRoute } from 'vue-router';
 import { estateStore } from '@/stores/estate'
 
 import { DiscussionWidget } from 'vue-tg'
+import Telegram from '@/components/Telegram.vue';
 
 const route = useRoute()
 const estate = estateStore()
@@ -14,11 +15,18 @@ await estate.getGeometry(city)
 const Polygon = defineAsyncComponent(() => 
   import('@/components/Polygon.vue')
 )
+function handleAlertClose() {
+  console.log('nope')
+}
 </script>
 
 <template>
+  
     <main class="map-embedded">
     <Polygon :center="estate.cityCenter" :features="estate.cityGeometry"/>
+    <div class="actions">
+      <Telegram />
+    </div>
     <div class="discuss">
       <DiscussionWidget url="contest/198" />
     </div>
@@ -37,8 +45,13 @@ html {
   width: 100%;
   height: 100%;
 }
+.actions {
+  overflow: auto;
+  margin: 0 1rem;
+  height: 50%;
+}
 .discuss {
-  width: 50vw;
-  margin: 0 auto;
+  width: 98vw - 2rem;
+  margin: 0 1rem;
 }
 </style>
