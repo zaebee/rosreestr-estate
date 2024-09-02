@@ -37,9 +37,6 @@ await estate.getGeometry(city)
             </div>
           </Transition>
         </v-col>
-        <v-col cols="12" md="6">
-          <TelegramLoginBtn />
-        </v-col>
       </v-row>
       <Bullets />
     </v-col>

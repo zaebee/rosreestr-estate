@@ -3,7 +3,8 @@
         <v-form fast-fail @submit.prevent>
             <v-text-field :rules="rules" v-model="name" label="Имя"></v-text-field>
             <v-text-field v-model="phone" label="Телефон"></v-text-field>
-            <v-btn class="mt-2" type="submit" color="secondary" variant="elevated" block @click="send">Отправить</v-btn>
+            <v-btn class="mt-2" type="submit" color="secondary" variant="elevated"
+             block @click="send">Оставить заявку</v-btn>
         </v-form>
     </v-sheet>
     <v-snackbar v-model="leadSaved">
