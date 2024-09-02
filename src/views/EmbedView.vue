@@ -3,9 +3,6 @@ import { defineAsyncComponent } from 'vue'
 import { useRoute } from 'vue-router';
 import { estateStore } from '@/stores/estate'
 
-import { DiscussionWidget } from 'vue-tg'
-import Telegram from '@/components/Telegram.vue';
-
 const route = useRoute()
 const estate = estateStore()
 const city = route.params.city || route.meta.city as string
@@ -24,12 +21,6 @@ function handleAlertClose() {
   
     <main class="map-embedded">
     <Polygon :center="estate.cityCenter" :features="estate.cityGeometry"/>
-    <div class="actions">
-      <Telegram />
-    </div>
-    <div class="discuss">
-      <DiscussionWidget url="contest/198" />
-    </div>
   </main>
 </template>
 
