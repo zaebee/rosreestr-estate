@@ -53,7 +53,7 @@ const Polygon = defineAsyncComponent(() =>
       <EcosystemIcon />
     </template>
     <template #heading>Получай заявки</template>
-    <p>После добавления кода виждета ты сможешь сразу получить готовую карту с участками.</p>
+    <p>После добавления кода виджета ты сможешь сразу получить готовую карту с участками.</p>
   </WelcomeItem>
 </template>
 
