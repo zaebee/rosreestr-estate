@@ -1,19 +1,40 @@
+<script setup lang="ts">
+defineProps<{
+  msg: string
+}>()
+</script>
+
 <template>
-    <yandex-map v-model="map" :settings="{
-        location: {
-            center: [37.617644, 55.755819],
-            zoom: 9,
-        },
-    }" width="100%" height="500px">
-        <yandex-map-default-scheme-layer />
-    </yandex-map>
+  <div class="greetings">
+    <h2 class="green">{{ msg }}</h2>
+    <p>Закажите разработку вашего генплана уже сегодня и через 3 дня мы установим код на ваш сайт.</p>
+  </div>
 </template>
 
-<script setup lang="ts">
-import { shallowRef } from 'vue';
-import type { YMap } from '@yandex/ymaps3-types';
-import { YandexMap, YandexMapDefaultSchemeLayer } from 'vue-yandex-maps';
+<style scoped>
+h2 {
+  font-weight: 500;
+  font-size: 2.2rem;
+  position: relative;
+  top: -10px;
+  line-height: 1.2;
+}
 
-//Можно использовать для различных преобразований
-const map = shallowRef<null | YMap>(null);
-</script>
+h3 {
+  font-size: 1.2rem;
+  margin: 20px 0;
+}
+
+.greetings h2,
+.greetings h3 {
+  text-align: center;
+}
+
+@media (min-width: 1024px) {
+
+  .greetings h2,
+  .greetings h3 {
+    text-align: left;
+  }
+}
+</style>

@@ -1,19 +1,21 @@
 <script setup lang="ts">
-import { ref } from 'vue'
+import { ref, defineAsyncComponent } from 'vue'
 import { useRoute } from 'vue-router'
 import { estateStore } from '@/stores/estate'
 
 import Hello from '../components/Hello.vue'
+import Map from '../components/Map.vue'
 import Bullets from '../components/Bullets.vue'
 import LeadForm from '../components/LeadForm.vue'
-import TelegramLoginBtn from '../components/TelegramLoginBtn.vue'
 import TheWelcome from '../components/TheWelcome.vue'
 
 const showForm = ref<boolean>(false)
 const route = useRoute();
 const estate = estateStore()
 const city = route.params.city || route.meta.city as string
-
+const Polygon = defineAsyncComponent(() => 
+  import('@/components/Polygon.vue')
+)
 await estate.getGeometry(city)
 </script>
 
@@ -45,4 +47,31 @@ await estate.getGeometry(city)
 
     </v-col>
   </v-row>
+
+  <v-row>
+    <v-col md="12" sm="12">
+      <v-row>
+        <v-col cols="12" md="12">
+          <Map msg="Карта с генеральным планом участков большого размера" />
+          <div class="map-large">
+              <Polygon :center="estate.cityCenter" :features="estate.cityGeometry"/>
+          </div>
+        </v-col>
+      </v-row>
+    </v-col>
+  </v-row>
 </template>
+
+<style>
+.map-large {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.actions {
+  overflow: auto;
+  margin: 0 1rem;
+  height: 50%;
+}
+
+</style>

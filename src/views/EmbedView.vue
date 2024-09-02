@@ -18,8 +18,7 @@ function handleAlertClose() {
 </script>
 
 <template>
-  
-    <main class="map-embedded">
+  <main class="map-embedded">
     <Polygon :center="estate.cityCenter" :features="estate.cityGeometry"/>
   </main>
 </template>
