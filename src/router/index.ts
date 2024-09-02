@@ -14,16 +14,7 @@ const router = createRouter({
       }
     },
     {
-      path: '/embed/:city',
-      name: 'embed',
-      component: () => import('../views/EmbedView.vue'),
-      props: true,
-      meta: {
-        city: "krasnodar"
-      }
-    },
-    {
-      path: '/embed',
+      path: '/embed/:city?',
       name: 'embed',
       component: () => import('../views/EmbedView.vue'),
       props: true,
